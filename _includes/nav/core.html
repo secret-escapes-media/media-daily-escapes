@@ -1,0 +1,69 @@
+
+{% if page.language %}
+  {% assign nav = site.data.languages.[page.language].nav %}
+{% else %}
+  {% assign nav = site.data.languages.uk.nav %}
+{% endif %}
+
+<!-- The main site header to look like core SE site-->
+<div class="nav">
+  <div class="nav__top">
+
+    <div class="nav__top__mobile">
+      <!-- mobile menu icon -->
+      <div class="js-toggle-mobile-nav icon icon--menu"></div>
+    </div>
+
+    <div class="nav__top__logo">
+      <!-- SE logo  -->
+      {% include components/logo.html placement="header" %}
+    </div>
+
+    <div class="nav__top__nav">
+      {% for item in nav.top %}
+        <a class="nav__top__nav-link" href="{{item.link}}">{{item.text}}</a>
+      {% endfor %}
+    </div>
+  </div>
+
+  <div class="nav__bottom">
+    <div class="nav__bottom__left">
+      <!-- nav list -->
+      <div class="nav__list">
+        {% for item in nav.main %}
+          <a class="nav__list-link" href="{{item.link}}">{{item.text}}</a>
+        {% endfor %}
+      </div>
+    </div>
+    <div class="nav__bottom__right">
+      {% for item in nav.main-right %}
+        <a class="nav__list-link" href="{{item.link}}">{{item.text}}</a>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+<!-- off canvas mobile menu -->
+<div class="mobile-nav is-closed">
+
+  <div class="mobile-nav__top mobile-nav__wrap">
+    <!-- close icon -->
+    <div class="js-toggle-mobile-nav icon icon--close"></div>
+  </div>
+
+  <div class="mobile-nav__middle mobile-nav__wrap">
+    <!-- nav list -->
+    <div class="mobile-nav__list">
+      <a class="mobile-nav__list-link" href="https://www.secretescapes.com/current-sales">Current Sales</a>
+      <a class="mobile-nav__list-link" href="https://www.secretescapes.com/spa">Spa</a>
+      <a class="mobile-nav__list-link" href="https://www.secretescapes.com/smartstays/filter">Smart Stays</a>
+    </div>
+  </div>
+
+</div>

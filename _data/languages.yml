@@ -1,0 +1,51 @@
+
+
+##################################################################################################
+# UK
+#
+
+uk:
+  site-link: https://www.secretescapes.com/current-sales
+  nav:
+    top:
+      - link: https://www.secretescapes.com/invite-friends
+        text: Invite friends
+      - link: https://www.secretescapes.com/contact
+        text: Contact
+    main:
+      - link: https://www.secretescapes.com/current-sales
+        text: Current Sales
+      - link: https://www.secretescapes.com/spa
+        text: Spa
+      - link: https://www.secretescapes.com/vouchers-offer
+        text: Gift vouchers
+    main-right:
+      - link: https://www.secretescapes.com/my-favourites
+        text: My favourites
+
+
+##################################################################################################
+# DE
+#
+
+de:
+  site-link: https://www.secretescapes.de/aktuelle-angebote
+  nav:
+    top:
+      - link: https://www.secretescapes.de/freunde-einladen
+        text: Empfehlen Sie uns
+      - link: https://www.secretescapes.de/kontakt-und-impressum
+        text: Kontakt & Impressum
+    main:
+      - link: https://www.secretescapes.de/aktuelle-angebote
+        text: Aktuelle Angebote
+      - link: https://www.secretescapes.de/reisekategorien/filter
+        text: Reisekategorien
+      - link: https://www.secretescapes.de/geschenkgutscheine
+        text: Gutscheine
+    main-right:
+      - link: https://www.secretescapes.de/meine-favoriten
+        text: Meine Favoriten
+
+
+

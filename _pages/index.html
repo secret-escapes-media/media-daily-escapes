@@ -1,0 +1,37 @@
+---
+layout: default
+id: overview
+title: Daily Escapes
+
+sections:
+  - id: fitness
+    title: Fitness
+  - id: mindfulness
+    title: Mindfulness
+  - id: reading
+    title: Reading
+  - id: creativity
+    title: Creativity
+  - id: learning
+    title: Learning
+  - id: socialising
+    title: Socialising
+
+---
+
+{% include page/site-banner.html %}
+
+<div class="bg--grey-lightest vpad--xxl">
+  {% for section in page.sections %}
+  <div class="container" id="{{section.id}}">
+    <div class="width width--xl text--center">
+      <h2 class="title title--xl">{{section.title}}</h2>
+      <p class="text--lg">Nulla vitae elit libero, a pharetra augue. Maecenas sed diam eget risus varius blandit sit amet non magna. Duis mollis, est non commodo luctus, nisi erat porttitor ligula.</p>
+      <div class="space--xxl"></div>
+    </div>
+    <div class="boxpad--xxl bg--white">
+      app
+    </div>
+  </div>
+  {% endfor %}
+</div>

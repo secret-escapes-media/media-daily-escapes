@@ -1,0 +1,27 @@
+<div class="hero">
+
+  <div class="hero__inner">
+    <div class="container container--no-padding text--center">
+      <div class="vpad--xxxl">
+        <h1 class="banner-title">Daily Escapes</h1>
+        <div class="width width--xl">
+          <p class="text--xxl">Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus eget urna mollis ornare vel eu leo. Etiam porta sem malesuada magna mollis euismod.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- site nav -->
+  <div class="hero__nav container">
+    <ul class="row row--no-gutters">
+      {% for section in page.sections %}
+      <li class="col col--2">
+        <a href="#{{section.id}}" class="hero__nav-item">
+          <div class="title title--xxs">{{section.title}}</div>
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+
+</div>

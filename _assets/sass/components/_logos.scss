@@ -1,0 +1,16 @@
+// styles for logos on site
+
+.logo {
+  display: inline-block;
+  width: 100%;
+  max-width: 140px;
+  padding-top: 3px;
+  @include bp($md){
+    max-width: 200px;
+    padding-top: 4px;
+  }
+  &-sm {
+    max-width: 120px;
+    padding-top: 2px;
+  }
+}

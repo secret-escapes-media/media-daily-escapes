@@ -1,0 +1,975 @@
+
+
+
+- type: photo
+  id: norway-gunvor1
+  ratio: 3-2
+  location: Henningsvær, Lofoten
+  photographer: Gunvor Eline
+  lens: NIKKOR Z 24-70mm f/4 S
+  shutterspeed: 1/200s
+  aperture: f/4
+  focallength: 32.5mm
+
+  page: norway
+  pages:
+    - id: norway
+
+
+
+- type: photo
+  id: norway-gunvor2
+  ratio: 3-2
+  location: Sørvågen, Lofoten
+  photographer: Gunvor Eline
+  lens: NIKKOR Z 24-70mm f/4 S
+  shutterspeed: 1/80s
+  aperture: f/4
+  focallength: 24mm
+
+  page: norway
+  pages:
+    - id: norway
+
+
+
+- type: photo
+  id: norway-gunvor3
+  ratio: 3-2
+  location: Merraflestinden, Lofoten
+  photographer: Gunvor Eline
+  lens: NIKKOR Z 24-70mm f/4 S
+  shutterspeed: 1/1250s
+  aperture: f/4
+  focallength: 26mm
+
+  page: norway
+  pages:
+    - id: norway
+
+
+
+- type: photo
+  id: norway-gunvor4
+  ratio: 3-2
+  location: Austberget, Lofoten
+  photographer: Gunvor Eline
+  lens: 70-200mm f/2.8
+  shutterspeed: 1/2000s
+  aperture: f/2.8
+  focallength: 185mm
+
+  page: norway
+  pages:
+    - id: norway
+
+
+
+- type: photo
+  id: norway-gunvor5
+  ratio: 3-2
+  location: Narvtinden, Lofoten
+  photographer: Gunvor Eline
+  lens: 70-200mm f/2.8
+  shutterspeed: 1/8000s
+  aperture: f/2.8
+  focallength: 150mm
+
+  page: norway
+  pages:
+    - id: norway
+
+
+
+- type: photo
+  id: norway-gunvor6
+  ratio: 3-2
+  location: Innersand, Lofoten
+  photographer: Gunvor Eline
+  lens: NIKKOR Z 35mm f/1.8 S
+  shutterspeed: 1/4000s
+  aperture: f/1.8
+  focallength: 35mm
+
+  page: norway
+  pages:
+    - id: norway
+
+
+
+- type: photo
+  id: norway-gunvor7
+  ratio: 2-3
+  location: Fredvanghytta, Lofoten
+  photographer: Gunvor Eline
+  lens: 70-200mm f/2.8
+  shutterspeed: 1/800s
+  aperture: f/2.8
+  focallength: 190mm
+
+  page: norway
+  pages:
+    - id: norway
+
+
+
+- type: photo
+  id: norway-gunvor8
+  ratio: 2-3
+  location: Ulvstinden, Lofoten
+  photographer: Gunvor Eline
+  lens: 70-200mm f/2.8
+  shutterspeed: 1/2500s
+  aperture: f/2.8
+  focallength: 145mm
+
+  page: norway
+  pages:
+    - id: norway
+
+
+
+- type: photo
+  id: norway-gunvor9
+  ratio: 2-3
+  location: Torsfjordtinden, Lofoten
+  photographer: Gunvor Eline
+  lens: 70-200mm f/2.8
+  shutterspeed: 1/320s
+  aperture: f/2.5
+  focallength: 35mm
+
+  page: norway
+  pages:
+    - id: norway
+
+
+
+- type: photo
+  id: norway-gunvor10
+  ratio: 2-3
+  location: Sennesvik, Lofoten
+  photographer: Gunvor Eline
+  lens: NIKKOR Z 24-70mm f/4 S
+  shutterspeed: 1/1250s
+  aperture: f/4.5
+  focallength: 70mm
+
+  page: norway
+  pages:
+    - id: norway
+
+
+
+- type: photo
+  id: norway-gunvor11
+  ratio: 3-2
+  location: Skoren, Lofoten
+  photographer: Gunvor Eline
+  lens: NIKKOR Z 24-70mm f/4 S
+  shutterspeed: 1/1000s
+  aperture: f/4
+  focallength: 24mm
+
+  page: norway
+  pages:
+    - id: norway
+
+
+
+- type: photo
+  id: norway-gunvor12
+  ratio: 2-3
+  location: Ramberg, Lofoten
+  photographer: Gunvor Eline
+  lens: NIKKOR Z 24-70mm f/4 S
+  shutterspeed: 1/1000s
+  aperture: f/4
+  focallength: 70mm
+
+  page: norway
+  pages:
+    - id: norway
+
+
+
+- type: photo
+  id: norway-gunvor13
+  ratio: 3-2
+  location: Kjerringa, Lofoten
+  photographer: Gunvor Eline
+  lens: NIKKOR Z 24-70mm f/4 S
+  shutterspeed: 1/1000s
+  aperture: f/4
+  focallength: 24mm
+
+  page: norway
+  pages:
+    - id: norway
+
+
+
+- type: photo
+  id: norway-gunvor14
+  ratio: 2-3
+  location: Kvalvika, Lofoten
+  photographer: Gunvor Eline
+  lens: NIKKOR Z 24-70mm f/4 S
+  shutterspeed: 1/1250s
+  aperture: f/4
+  focallength: 24mm
+
+  page: norway
+  pages:
+    - id: norway
+
+
+
+- type: photo
+  id: norway-gunvor15
+  ratio: 3-2
+  location: Fredvang, Lofoten
+  photographer: Gunvor Eline
+  lens: NIKKOR Z 24-70mm f/4 S
+  shutterspeed: 1/1250s
+  aperture: f/4
+  focallength: 24mm
+
+  page: norway
+  pages:
+    - id: norway
+
+
+
+- type: photo
+  id: norway-gunvor16
+  ratio: 3-2
+  location: Nordvalle, Lofoten
+  photographer: Gunvor Eline
+  lens: NIKKOR Z 24-70mm f/4 S
+  shutterspeed: 1/1600s
+  aperture: f/4.5
+  focallength: 35mm
+
+  page: norway
+  pages:
+    - id: norway
+
+
+
+- type: photo
+  id: norway-gunvor17
+  ratio: 3-2
+  location: Bjørntinden, Lofoten
+  photographer: Gunvor Eline
+  lens: NIKKOR Z 24-70mm f/4 S
+  shutterspeed: 1/250s
+  aperture: f/5
+  focallength: 24mm
+
+  page: norway
+  pages:
+    - id: norway
+
+
+
+- type: photo
+  id: norway-gunvor18
+  ratio: 2-3
+  location: Flakstadøya, Lofoten
+  photographer: Gunvor Eline
+  lens: NIKKOR Z 24-70mm f/4 S
+  shutterspeed: 1/1000s
+  aperture: f/4
+  focallength: 64mm
+
+  page: norway
+  pages:
+    - id: norway
+
+
+
+- type: photo
+  id: norway-gunvor19
+  ratio: 3-2
+  location: Nonsdalen, Lofoten
+  photographer: Gunvor Eline
+  lens: NIKKOR Z 24-70mm f/4 S
+  shutterspeed: 1/500s
+  aperture: f/8
+  focallength: 35mm
+
+  page: norway
+  pages:
+    - id: norway
+
+
+
+- type: photo
+  id: norway-gunvor20
+  ratio: 2-3
+  location: Bøosen, Lofoten
+  photographer: Gunvor Eline
+  lens: NIKKOR Z 35mm f/1.8 S
+  shutterspeed: 1/6400s
+  aperture: f/1.8
+  focallength: 35mm
+
+  page: norway
+  pages:
+    - id: norway
+
+
+
+- type: photo
+  id: norway-gunvor21
+  ratio: 3-2
+  location: Stjerntinden, Lofoten
+  photographer: Gunvor Eline
+  lens: 70-200mm f/2.8
+  shutterspeed: 1/800s
+  aperture: f/2.8
+  focallength: 200mm
+
+  page: norway
+  pages:
+    - id: norway
+
+
+
+- type: photo
+  id: norway-gunvor22
+  ratio: 3-2
+  location: Langneset, Lofoten
+  photographer: Gunvor Eline
+  lens: NIKKOR Z 35mm f/1.8 S
+  shutterspeed: 1/250s
+  aperture: f/2.5
+  focallength: 35mm
+
+  page: norway
+  pages:
+    - id: norway
+
+
+
+- type: photo
+  id: norway-gunvor23
+  ratio: 3-2
+  location: Tinden, Lofoten
+  photographer: Gunvor Eline
+  lens: 70-200mm f/2.8
+  shutterspeed: 1/800s
+  aperture: f/2.8
+  focallength: 200mm
+
+  page: norway
+  pages:
+    - id: norway
+
+
+
+- type: photo
+  id: norway-gunvor24
+  ratio: 2-3
+  location: Sakrisøya, Lofoten
+  photographer: Gunvor Eline
+  lens: NIKKOR Z 35mm f/1.8 S
+  shutterspeed: 1/2000s
+  aperture: f/2
+  focallength: 35mm
+
+  page: norway
+  pages:
+    - id: norway
+
+
+
+- type: photo
+  id: norway-jeryl1
+  ratio: 2-3
+  location: Lofoten, Norway
+  photographer: Jeryl
+  lens: NIKKOR Z 24-70mm f/4 S
+  shutterspeed: 15s
+  aperture: f/22
+  focallength: 42mm
+
+  page: norway
+  pages:
+    - id: norway
+
+
+
+- type: photo
+  id: norway-jeryl2
+  ratio: 3-2
+  location: Lofoten, Norway
+  photographer: Jeryl
+  lens: NIKKOR Z 35mm f/1.8 S
+  shutterspeed: 1/1600s
+  aperture: f/1.8
+  focallength: 35mm
+
+  page: norway
+  pages:
+    - id: norway
+
+
+
+- type: photo
+  id: norway-jeryl3
+  ratio: 3-2
+  location: Lofoten, Norway
+  photographer: Jeryl
+  lens: NIKKOR Z 24-70mm f/4 S
+  shutterspeed: 1/500s
+  aperture: f/4
+  focallength: 24mm
+
+  page: norway
+  pages:
+    - id: norway
+
+
+
+- type: photo
+  id: norway-jeryl4
+  ratio: 2-3
+  location: Lofoten, Norway
+  photographer: Jeryl
+  lens: 70-200mm f/2.8
+  shutterspeed: 1/1250s
+  aperture: f/2.8
+  focallength: 82mm
+
+  page: norway
+  pages:
+    - id: norway
+
+
+
+- type: photo
+  id: norway-jeryl5
+  ratio: 3-2
+  location: Lofoten, Norway
+  photographer: Jeryl
+  lens: 70-200mm f/2.8
+  shutterspeed: 1/1250s
+  aperture: f/2.8
+  focallength: 110mm
+
+  page: norway
+  pages:
+    - id: norway
+
+
+
+- type: photo
+  id: norway-jeryl6
+  ratio: 2-3
+  location: Lofoten, Norway
+  photographer: Jeryl
+  lens: NIKKOR Z 24-70mm f/4 S
+  shutterspeed: 1/1250s
+  aperture: f/4
+  focallength: 36mm
+
+  page: norway
+  pages:
+    - id: norway
+
+
+
+- type: photo
+  id: norway-jeryl7
+  ratio: 2-3
+  location: Lofoten, Norway
+  photographer: Jeryl
+  lens: NIKKOR Z 24-70mm f/4 S
+  shutterspeed: 1/320s
+  aperture: f/4
+  focallength: 24mm
+
+  page: norway
+  pages:
+    - id: norway
+
+
+
+- type: photo
+  id: norway-jeryl8
+  ratio: 2-3
+  location: Lofoten, Norway
+  photographer: Jeryl
+  lens: NIKKOR Z 24-70mm f/4 S
+  shutterspeed: 1/400s
+  aperture: f/4
+  focallength: 24mm
+
+  page: norway
+  pages:
+    - id: norway
+
+
+
+- type: photo
+  id: norway-jeryl9
+  ratio: 2-3
+  location: Lofoten, Norway
+  photographer: Jeryl
+  lens: NIKKOR Z 24-70mm f/4 S
+  shutterspeed: 1/640s
+  aperture: f/4
+  focallength: 24mm
+
+  page: norway
+  pages:
+    - id: norway
+
+
+
+- type: photo
+  id: norway-jeryl10
+  ratio: 2-3
+  location: Lofoten, Norway
+  photographer: Jeryl
+  lens: NIKKOR Z 24-70mm f/4 S
+  shutterspeed: 1/400s
+  aperture: f/4
+  focallength: 25.5mm
+
+  page: norway
+  pages:
+    - id: norway
+
+
+
+- type: photo
+  id: norway-jeryl11
+  ratio: 2-3
+  location: Lofoten, Norway
+  photographer: Jeryl
+  lens: 70-200mm f/2.8
+  shutterspeed: 1/60s
+  aperture: f/2.8
+  focallength: 200mm
+
+  page: norway
+  pages:
+    - id: norway
+
+
+
+- type: photo
+  id: norway-jeryl12
+  ratio: 2-3
+  location: Lofoten, Norway
+  photographer: Jeryl
+  lens: 70-200mm f/2.8
+  shutterspeed: 1/3200s
+  aperture: f/2.8
+  focallength: 102mm
+
+  page: norway
+  pages:
+    - id: norway
+
+
+
+- type: photo
+  id: norway-jeryl13
+  ratio: 2-3
+  location: Lofoten, Norway
+  photographer: Jeryl
+  lens: 70-200mm f/2.8
+  shutterspeed: 1/2000s
+  aperture: f/4
+  focallength: 200mm
+
+  page: norway
+  pages:
+    - id: norway
+
+
+
+- type: photo
+  id: norway-jeryl14
+  ratio: 2-3
+  location: Lofoten, Norway
+  photographer: Jeryl
+  lens: NIKKOR Z 24-70mm f/4 S
+  shutterspeed: 1/400s
+  aperture: f/4
+  focallength: 70mm
+
+  page: norway
+  pages:
+    - id: norway
+
+
+
+##############################################################
+#   SINGAPORE
+##############################################################
+
+
+
+- type: photo
+  id: singapore-gunvor1
+  ratio: 2-3
+  location: Singapore
+  photographer: Gunvor Eline
+  lens: NIKKOR Z 24-70mm f/4 S
+  shutterspeed: 1/80s
+  aperture: f/4
+  focallength: 49mm
+
+  page: singapore
+  pages:
+    - id: singapore
+
+
+
+- type: photo
+  id: singapore-gunvor2
+  ratio: 2-3
+  location: Singapore
+  photographer: Gunvor Eline
+  lens: NIKKOR Z 24-70mm f/4 S
+  shutterspeed: 1/800s
+  aperture: f/4
+  focallength: 53mm
+
+  page: singapore
+  pages:
+    - id: singapore
+
+
+
+- type: photo
+  id: singapore-gunvor3
+  ratio: 3-2
+  location: Singapore
+  photographer: Gunvor Eline
+  lens: NIKKOR Z 24-70mm f/4 S
+  shutterspeed: 1/500s
+  aperture: f/4
+  focallength: 24mm
+
+  page: singapore
+  pages:
+    - id: singapore
+
+
+
+- type: photo
+  id: singapore-gunvor4
+  ratio: 2-3
+  location: Singapore
+  photographer: Gunvor Eline
+  lens: NIKKOR Z 24-70mm f/4 S
+  shutterspeed: 1/800s
+  aperture: f/4
+  focallength: 70mm
+
+  page: singapore
+  pages:
+    - id: singapore
+
+
+
+- type: photo
+  id: singapore-gunvor5
+  ratio: 3-2
+  location: Singapore
+  photographer: Gunvor Eline
+  lens: NIKKOR Z 24-70mm f/4 S
+  shutterspeed: 1/1000s
+  aperture: f/10
+  focallength: 33mm
+
+  page: singapore
+  pages:
+    - id: singapore
+
+
+
+- type: photo
+  id: singapore-gunvor6
+  ratio: 2-3
+  location: Singapore
+  photographer: Gunvor Eline
+  lens: NIKKOR Z 24-70mm f/4 S
+  shutterspeed: 1/500s
+  aperture: f/4
+  focallength: 70mm
+
+  page: singapore
+  pages:
+    - id: singapore
+
+
+
+- type: photo
+  id: singapore-gunvor7
+  ratio: 2-3
+  location: Singapore
+  photographer: Gunvor Eline
+  lens: NIKKOR Z 24-70mm f/4 S
+  shutterspeed: 1/2000s
+  aperture: f/4
+  focallength: 58mm
+
+  page: singapore
+  pages:
+    - id: singapore
+
+
+
+- type: photo
+  id: singapore-gunvor8
+  ratio: 2-3
+  location: Singapore
+  photographer: Gunvor Eline
+  lens: NIKKOR Z 24-70mm f/4 S
+  shutterspeed: 1/100s
+  aperture: f/4
+  focallength: 41mm
+
+  page: singapore
+  pages:
+    - id: singapore
+
+
+
+- type: photo
+  id: singapore-gunvor9
+  ratio: 3-2
+  location: Singapore
+  photographer: Gunvor Eline
+  lens: NIKKOR Z 24-70mm f/4 S
+  shutterspeed: 1/100s
+  aperture: f/4
+  focallength: 24mm
+
+  page: singapore
+  pages:
+    - id: singapore
+
+
+
+- type: photo
+  id: singapore-gunvor10
+  ratio: 2-3
+  location: Singapore
+  photographer: Gunvor Eline
+  lens: NIKKOR Z 24-70mm f/4 S
+  shutterspeed: 1/25s
+  aperture: f/4
+  focallength: 24mm
+
+  page: singapore
+  pages:
+    - id: singapore
+
+
+
+- type: photo
+  id: singapore-gunvor11
+  ratio: 3-2
+  location: Singapore
+  photographer: Gunvor Eline
+  lens: NIKKOR Z 24-70mm f/4 S
+  shutterspeed: 1/320s
+  aperture: f/1.8
+  focallength: 35mm
+
+  page: singapore
+  pages:
+    - id: singapore
+
+
+
+- type: photo
+  id: singapore-gunvor12
+  ratio: 3-2
+  location: Singapore
+  photographer: Gunvor Eline
+  lens: NIKKOR Z 24-70mm f/4 S
+  shutterspeed: 1/640s
+  aperture: f/1.8
+  focallength: 35mm
+
+  page: singapore
+  pages:
+    - id: singapore
+
+
+
+- type: photo
+  id: singapore-jeryl1
+  ratio: 2-3
+  location: Singapore
+  photographer: Gunvor Eline
+  lens: NIKKOR Z 24-70mm f/4 S
+  shutterspeed: 1/1000s
+  aperture: f/4
+  focallength: 70mm
+
+  page: singapore
+  pages:
+    - id: singapore
+
+
+
+- type: photo
+  id: singapore-jeryl2
+  ratio: 2-3
+  location: Singapore
+  photographer: Gunvor Eline
+  lens: 70-200mm f/2.8
+  shutterspeed: 1/3200s
+  aperture: f/2.8
+  focallength: 200mm
+
+  page: singapore
+  pages:
+    - id: singapore
+
+
+
+- type: photo
+  id: singapore-jeryl3
+  ratio: 2-3
+  location: Singapore
+  photographer: Gunvor Eline
+  lens: NIKKOR Z 24-70mm f/4 S
+  shutterspeed: 1/1000s
+  aperture: f/4
+  focallength: 70mm
+
+  page: singapore
+  pages:
+    - id: singapore
+
+
+
+- type: photo
+  id: singapore-jeryl4
+  ratio: 3-2
+  location: Singapore
+  photographer: Gunvor Eline
+  lens: NIKKOR Z 24-70mm f/4 S
+  shutterspeed: 1/640s
+  aperture: f/4
+  focallength: 70mm
+
+  page: singapore
+  pages:
+    - id: singapore
+
+
+
+- type: photo
+  id: singapore-jeryl5
+  ratio: 2-3
+  location: Singapore
+  photographer: Gunvor Eline
+  lens: NIKKOR Z 24-70mm f/4 S
+  shutterspeed: 1/400s
+  aperture: f/4
+  focallength: 70mm
+
+  page: singapore
+  pages:
+    - id: singapore
+
+
+
+- type: photo
+  id: singapore-jeryl6
+  ratio: 3-2
+  location: Singapore
+  photographer: Gunvor Eline
+  lens: NIKKOR Z 24-70mm f/4 S
+  shutterspeed: 1/1000s
+  aperture: f/4
+  focallength: 55mm
+
+  page: singapore
+  pages:
+    - id: singapore
+
+
+
+- type: photo
+  id: singapore-jeryl7
+  ratio: 2-3
+  location: Singapore
+  photographer: Gunvor Eline
+  lens: NIKKOR Z 24-70mm f/4 S
+  shutterspeed: 1/1000s
+  aperture: f/4
+  focallength: 70mm
+
+  page: singapore
+  pages:
+    - id: singapore
+
+
+
+- type: photo
+  id: singapore-jeryl8
+  ratio: 2-3
+  location: Singapore
+  photographer: Gunvor Eline
+  lens: NIKKOR Z 24-70mm f/4 S
+  shutterspeed: 1/60s
+  aperture: f/4
+  focallength: 24mm
+
+  page: singapore
+  pages:
+    - id: singapore
+
+
+
+- type: photo
+  id: singapore-jeryl9
+  ratio: 2-3
+  location: Singapore
+  photographer: Gunvor Eline
+  lens: NIKKOR Z 24-70mm f/4 S
+  shutterspeed: 1/30s
+  aperture: f/4
+  focallength: 24mm
+
+  page: singapore
+  pages:
+    - id: singapore
+
+
+
+- type: photo
+  id: singapore-jeryl10
+  ratio: 2-3
+  location: Singapore
+  photographer: Gunvor Eline
+  lens: NIKKOR Z 24-70mm f/4 S
+  shutterspeed: 2.5s
+  aperture: f/4
+  focallength: 24mm
+
+  page: singapore
+  pages:
+    - id: singapore
+
+
+
+
+
+
+
+
+

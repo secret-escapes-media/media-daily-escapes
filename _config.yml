@@ -1,0 +1,21 @@
+# Site settings
+title: Secret Escapes
+
+description: >
+  Der Frühling naht - wir heißen ihn mit einem Gewinnspiel herzlich willkommen. Sie haben die Chance, einen Voucher über 1000€ tu gewinnen, ein Voucher, der drei Jahre lang gültig ist und für jede Buchung auf Secret Escapes verwendet werden kann.
+
+# file paths
+url:     "http://mp.secretescapes.com" # the base hostname & protocol for your site
+baseurl: "/uk/daily-escapes" # the subpath of your site, e.g. /blog/
+img:     "/uk/daily-escapes/_assets/img"
+css:     "/uk/daily-escapes/_assets/css"
+js:      "/uk/daily-escapes/_assets/js"
+
+
+# Build settings
+markdown: kramdown
+exclude: [node_modules, gulpfile.js, package.json, package-lock.json, js/script.js]
+keep_files: [_assets]
+sass:
+    sass_dir: css
+    style: compressed
