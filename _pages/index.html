@@ -6,16 +6,33 @@ title: Daily Escapes
 sections:
   - id: fitness
     title: Fitness
+    featured-app: feature
+    description: Staying fit is the best way to keep the stir-crazy at bay from all that self-isolation. With a choice of apps, you can stay on top of your fitness regime from the comfort of home. Plus, we’ll reward your progress with Secret Escapes credit!
+
   - id: mindfulness
     title: Mindfulness
+    featured-app: feature
+    description: These are strange times and can be unsettling for some. A bit of mindfulness, a spot of yoga, a pinch of meditation - they can all help ease any anxieties and keep you healthy. We’re here to help as much as we can, so the more you achieve, the more we’ll reward you!
+
   - id: reading
     title: Reading
+    featured-app: feature
+    description: There’s no reason to put those holiday reads down. A good book is a frightfully good companion, so find your next read here and we’ll reward you with a Secret Escapes credit toward your future getaway!
+
   - id: creativity
     title: Creativity
+    featured-app: feature
+    description: Let your creativity flow! Get creative with these cool apps, perfect for doing something productive with all that indoor time. Whether your thing is fine art or photography, try something new or fine-tune that artistic flair...
+
   - id: learning
     title: Learning
+    featured-app: feature
+    description: It’s just one of those things that seemingly always gets put off. But think about how impressive you’ll be strutting through Paris with perfect French at the tip of your tongue. Master that language you’ve always wanted to learn and we’ll credit you toward that future break!
+
   - id: socialising
     title: Socialising
+    featured-app: feature
+    description: Don’t miss out on the pub quiz, the board game marathon, the plans you had with friends. There’s ways that you can still connect during these strange times, and safely hang out with loved ones.
 
 ---
 
@@ -25,13 +42,37 @@ sections:
   {% for section in page.sections %}
   <div class="container" id="{{section.id}}">
     <div class="width width--xl text--center">
-      <h2 class="title title--xl">{{section.title}}</h2>
-      <p class="text--lg">Nulla vitae elit libero, a pharetra augue. Maecenas sed diam eget risus varius blandit sit amet non magna. Duis mollis, est non commodo luctus, nisi erat porttitor ligula.</p>
-      <div class="space--xxl"></div>
+      <h2 class="title title--xl title--serif">{{section.title}}</h2>
+      <p class="text--lg">{{section.description}}</p>
     </div>
-    <div class="boxpad--xxl bg--white">
-      app
-    </div>
+
+    {% assign feature = site.data.offers | where: 'id', section.featured-app %}
+    {% if feature.size > 0 %}
+      <div class="space--xl"></div>
+      {% for feature in feature %}
+        <div class="feature">
+          <div class="feature__app boxpad--lg bg--white">
+            <div class="feature__app-content vpad--xxl">
+              <h2 class="title title--lg text--bolder">{{feature.app.name}}</h2>
+              <p class="text--xxl">{{feature.app.tagline}}</p>
+            </div>
+            <div class="feature__app-bg" style="background-image: url({{site.img}}/feature/{{feature.id}}/bg.jpg);"></div>
+          </div>
+
+          <div class="feature__incentive boxpad--lg bg--grey-darkest text--white">
+            <div class="row row--valign-center">
+              <div class="col col--8">
+                <p class="">{{feature.incentive}}</p>
+              </div>
+              <div class="col col--4">
+                <a href="javascript:void(0);" class="btn btn--sm btn--outline btn--outline-white">Learn more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    {% endif %}
+
   </div>
   {% endfor %}
 </div>

@@ -1,0 +1,38 @@
+
+
+.feature {
+  position: relative;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 3px 6px 0 rgba($grey-darkest,0.2);
+  &__app {
+    position: relative;
+    &-content {
+      position: relative;
+      z-index: 1;
+    }
+    &-bg {
+      @include background-attributes;
+      position: absolute;
+      left: 33%; right: 0;
+      top: 0; bottom: 0;
+      z-index: 0;
+      background-color: $grey-light;
+      &:before {
+        content: "";
+        display: block;
+        position: absolute;
+        z-index: 1;
+        left: 0; top: 0; bottom: 0;
+        width: 50%;
+        background: -moz-linear-gradient(left,  rgba($white,1) 0%, rgba($white,0) 100%);
+        background: -webkit-linear-gradient(left,  rgba($white,1) 0%,rgba($white,0) 100%);
+        background: linear-gradient(to right,  rgba($white,1) 0%,rgba($white,0) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=1 );
+      }
+    }
+  }
+  &__incentive {
+
+  }
+}

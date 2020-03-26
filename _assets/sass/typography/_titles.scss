@@ -2,7 +2,7 @@
 
 .title {
   // custom content headline
-  font-family: $serif;
+  font-family: $sans;
   line-height: 1.1;
   &--xxxl   { font-size: $s8; }
   &--xxl    { font-size: $s7; }
@@ -24,6 +24,7 @@
     &--xxs    { font-size: $s2; }
     &--xxxs   { font-size: $s1; }
   }
+  &--serif { font-family: $serif; font-weight: bold; }
 }
 
 .sub-title {
