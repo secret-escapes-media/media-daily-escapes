@@ -6,10 +6,10 @@ description: >
 
 # file paths
 url:     "http://mp.secretescapes.com" # the base hostname & protocol for your site
-baseurl: "/uk/daily-escapes" # the subpath of your site, e.g. /blog/
-img:     "/uk/daily-escapes/_assets/img"
-css:     "/uk/daily-escapes/_assets/css"
-js:      "/uk/daily-escapes/_assets/js"
+baseurl: "/uk/2020/daily-escapes" # the subpath of your site, e.g. /blog/
+img:     "/uk/2020/daily-escapes/_assets/img"
+css:     "/uk/2020/daily-escapes/_assets/css"
+js:      "/uk/2020/daily-escapes/_assets/js"
 
 
 # Build settings

@@ -40,7 +40,7 @@
 }
 
 
-$hero-nav-height: 10em;
+$hero-nav-height: 180px;
 .hero {
   background-color: $grey-lightest;
   position: relative;
@@ -54,16 +54,29 @@ $hero-nav-height: 10em;
     & ul { margin: 0; padding: 0; }
     & * { list-style: none; margin: 0; padding: 0; }
     &-item {
+      position: relative;
       border: 2px solid $white;
       height: $hero-nav-height;
       background-color: $grey-darkest;
       color: $white;
+      text-transform: uppercase;
+      font-weight: 600;
+      font-size: $s1;
+      letter-spacing: 0.1em;
+      line-height: 0;
+      @include background-attributes;
+    }
+    &-link {
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      text-transform: uppercase;
-      font-weight: 600;
+      position: absolute;
+      z-index: 1;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background-color: rgba($grey-darkest,0.5);
+      @include transition;
+      &:hover { background-color: rgba($grey-darkest,0.75); }
     }
   }
 

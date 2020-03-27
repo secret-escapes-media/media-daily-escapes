@@ -1,0 +1,66 @@
+
+
+
+- id: gymondo
+  category: fitness
+  incentive: Do 5 days of yoga and we will reward you with £20 credit!
+  product:
+    name: Gymondo
+    tagline: Aenean eu leo quam
+    link:
+    color: "#FD7E65"
+    features:
+      - id: feature1
+        title: Feature
+        content: Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+      - id: feature2
+        title: Feature
+        content: Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+      - id: feature3
+        title: Feature
+        content: Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+
+
+
+- id: down-dog
+  category: mindfulness
+  incentive: Do 5 days of yoga and we will reward you with £20 credit!
+  product:
+    name: Down Dog
+    tagline: Great yoga anywhere
+    link:
+    color: "#379EE5"
+    features:
+      - id: feature1
+        title: Feature
+        content: Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+      - id: feature2
+        title: Feature
+        content: Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+      - id: feature3
+        title: Feature
+        content: Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+
+
+
+- id: touchnote
+  category: creativity
+  incentive: Do 5 days of yoga and we will reward you with £20 credit!
+  product:
+    name: TouchNote
+    tagline: Moments they can hold on to
+    link:
+    color: "#56b9ca"
+    features:
+      - id: feature1
+        title: Feature
+        content: Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+      - id: feature2
+        title: Feature
+        content: Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+      - id: feature3
+        title: Feature
+        content: Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+
+
+

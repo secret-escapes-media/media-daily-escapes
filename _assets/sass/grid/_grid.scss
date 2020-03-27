@@ -51,6 +51,7 @@
   &--valign-bottom { align-items: flex-end; }
   &--valign-center { align-items: center; }
   &--reverse       { flex-direction: row-reverse; }
+  &--match-height  { align-items: stretch; }
 
 
   ////////////////////////////////////////////// row column widths & breakpoints

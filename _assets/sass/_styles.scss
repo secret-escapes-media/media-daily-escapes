@@ -1,15 +1,39 @@
 
 
-.feature {
-  position: relative;
+.card {
   border-radius: 5px;
   overflow: hidden;
-  box-shadow: 0 3px 6px 0 rgba($grey-darkest,0.2);
-  &__app {
+  box-shadow: 0 3px 6px 0 rgba($grey-darkest,0.1);
+  @include transition;
+  &:hover { box-shadow: 0 3px 12px 0 rgba($grey-darkest,0.2); }
+  &--flat {
+    box-shadow: 0 0 1px 1px rgba($grey-darkest,0.1);
+    &:hover { box-shadow: 0 0 1px 1px rgba($grey-darkest,0.1); }
+  }
+}
+
+.icon {
+  @include background-attributes;
+  position: relative;
+  display: inline-block;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px 0 rgba($grey-darkest,0.2);
+}
+
+
+.product {
+  position: relative;
+  &__link {
+    position: absolute;
+    top: 0; bottom: 0; left: 0; right: 0;
+    z-index: 2;
+  }
+  &__hero {
     position: relative;
-    &-content {
-      position: relative;
-      z-index: 1;
+    &-content {}
+    &-icon {
+      margin-right: $s-2;
+      height: $s8; width: $s8;
     }
     &-bg {
       @include background-attributes;
@@ -32,7 +56,28 @@
       }
     }
   }
-  &__incentive {
+  &__incentive {}
+}
 
+
+.article {
+  position: relative;
+  &__link {
+    position: absolute;
+    top: 0; bottom: 0; left: 0; right: 0;
+    z-index: 2;
+  }
+  &__meta {
+    &-separator { color: $grey-lighter; margin: 0 $s0; }
   }
 }
+
+
+
+.comment {
+  height: 100%;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+

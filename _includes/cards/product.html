@@ -1,0 +1,26 @@
+
+
+<div class="product card">
+  <a href="javascript:void(0);" class="product__link js-open-modal" data-modal-item="{{product.id}}"></a>
+  <div class="product__hero boxpad--lg bg--white">
+    <div class="product__hero-content vpad--xxl">
+      <h2 class="title title--lg text--bolder">
+        <div class="icon product__hero-icon" style="background-image: url({{site.img}}/product/{{product.id}}/icon.jpg);"></div>
+        {{product.product.name}}
+      </h2>
+      <p class="text--xxxxl">{{product.product.tagline}}</p>
+    </div>
+    <div class="product__hero-bg" style="background-image: url({{site.img}}/product/{{product.id}}/bg.jpg);"></div>
+  </div>
+
+  <div class="product__incentive boxpad--lg bg--grey-darkest text--white" style="background-color: {{product.product.color}};">
+    <div class="row row--valign-center">
+      <div class="col col--8">
+        <p class="text--xl">{{product.incentive}}</p>
+      </div>
+      <div class="col col--4 text--right">
+        <a href="javascript:void(0);" class="btn btn--sm btn--outline btn--outline-white">Learn more</a>
+      </div>
+    </div>
+  </div>
+</div>

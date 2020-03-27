@@ -74,7 +74,7 @@ $modaltransition-distance: 4em;
     padding: 0;
     overflow: scroll;
     @include bp($lg){
-      padding: 0 $icon-size;
+      padding: $icon-size $icon-size;
       overflow: auto;
     }
 
@@ -134,31 +134,44 @@ $modaltransition-distance: 4em;
   }
 }
 
-// SPECIFIC MODIFIERS FOR MAP MODAL
-.modal-map {
-  padding: $icon-size-sm 0;
-  @include bp($lg){
-    padding: $icon-size 0;
-  }
-  &__frame {
-    position: relative;
-    z-index: $z-content;
-    display: flex;
-    align-items: center;
-    overflow-x: scroll;
-    &:before {
-      content: "";
-      display: block;
-      width: 100%;
-      padding-top: 56.25%;
-    }
-    & iframe {
+// SPECIFIC MODIFIERS FOR PRODUCT MODAL
+.modal-product {
+  &__image {
+    &-category {
       position: absolute;
-      top: 0; bottom: 0;
-      left: 0; right: 0;
+      top: 0; left: 0;
+      padding: $s2 0 0 $s2;
+      width: $s16; height: $s16;
+      color: $grey-darkest;
+      font-size: $s2;
+      text-transform: uppercase;
+      font-weight: 700;
+      background: -moz-linear-gradient(-45deg,  rgba(255,255,255,1) 0%, rgba(255,255,255,0) 50%);
+      background: -webkit-linear-gradient(-45deg,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 50%);
+      background: linear-gradient(135deg,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 50%);
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=1 );
+      &-logo {
+        margin-bottom: 10px;
+        width: $s6;
+        height: $s6;
+        background-image: url(../img/logo/icon.svg);
+        @include background-attributes;
+      }
     }
+  }
+  &__icon {
+    margin: auto;
+    height: $s10;
+    width: $s10;
+    margin-top: -$s10/2;
   }
 }
+
+
+
+
+
+
 
 /*=====================================
   MODAL CAROUSEL - if .modal--carousel

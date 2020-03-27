@@ -17,11 +17,13 @@
   <!-- site nav -->
   <div class="hero__nav container">
     <ul class="row row--no-gutters">
-      {% for section in page.sections %}
+      {% for section in site.data.categories %}
       <li class="col col--2">
-        <a href="#{{section.id}}" class="hero__nav-item">
-          <div class="title title--xxs">{{section.title}}</div>
-        </a>
+        <div class="hero__nav-item" style="background-image: url({{site.img}}/categories/{{section.id}}/nav.jpg);">
+          <a href="#{{section.id}}" class="hero__nav-link">
+            {{section.title}}
+          </a>
+        </div>
       </li>
       {% endfor %}
     </ul>

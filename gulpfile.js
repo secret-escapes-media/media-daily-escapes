@@ -27,7 +27,7 @@ function browserSyncServe() {
     server: {
       baseDir: '_site/',
       routes: {
-        '/uk/daily-escapes': '_site/'
+        '/uk/2020/daily-escapes': '_site/'
       }
     }
   });
