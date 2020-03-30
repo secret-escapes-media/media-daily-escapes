@@ -30,7 +30,10 @@
   }
   &__hero {
     position: relative;
-    &-content {}
+    &-content {
+      z-index: 1;
+      position: relative;
+    }
     &-icon {
       margin-right: $s-2;
       height: $s8; width: $s8;

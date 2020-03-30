@@ -1,6 +1,10 @@
 
 
 
+###################################################################################################
+# FITNESS
+###################################################################################################
+
 - id: gymondo
   category: fitness
   incentive: Do 5 days of yoga and we will reward you with £20 credit!
@@ -21,6 +25,10 @@
         content: Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
 
 
+
+###################################################################################################
+# MINDFULNESS
+###################################################################################################
 
 - id: down-dog
   category: mindfulness
@@ -43,14 +51,112 @@
 
 
 
-- id: touchnote
+###################################################################################################
+# READING
+###################################################################################################
+
+- id: kindle
+  category: reading
+  incentive: Read 2 books this month and we will reward you with £20 credit!
+  product:
+    name: Kindle
+    tagline: Aenean eu leo quam
+    link:
+    color: "#67a5c7"
+    features:
+      - id: feature1
+        title: Feature
+        content: Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+      - id: feature2
+        title: Feature
+        content: Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+      - id: feature3
+        title: Feature
+        content: Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+
+
+
+###################################################################################################
+# CREATIVITY
+###################################################################################################
+
+- id: photobox
   category: creativity
+  incentive: 50% off all orders
+  product:
+    name: Photobox
+    tagline: Aenean eu leo quam
+    link:
+    color: "#007376"
+    features:
+      - id: feature1
+        title: Feature
+        content: Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+      - id: feature2
+        title: Feature
+        content: Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+      - id: feature3
+        title: Feature
+        content: Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+
+- id: touchnote
+  category:
   incentive: Do 5 days of yoga and we will reward you with £20 credit!
   product:
     name: TouchNote
     tagline: Moments they can hold on to
     link:
     color: "#56b9ca"
+    features:
+      - id: feature1
+        title: Feature
+        content: Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+      - id: feature2
+        title: Feature
+        content: Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+      - id: feature3
+        title: Feature
+        content: Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+
+
+
+###################################################################################################
+# LEARNING
+###################################################################################################
+
+- id: duolingo
+  category: learning
+  incentive: Complete a week of lessons and we will reward you with £20 credit!
+  product:
+    name: Duolingo
+    tagline: Aenean eu leo quam
+    link:
+    color: "#77c800"
+    features:
+      - id: feature1
+        title: Feature
+        content: Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+      - id: feature2
+        title: Feature
+        content: Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+      - id: feature3
+        title: Feature
+        content: Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+
+
+
+###################################################################################################
+# SOCIALISING
+###################################################################################################
+
+- id: psych
+  category: socialising
+  incentive:
+  product:
+    name: Psych
+    tagline: Aenean eu leo quam
+    link:
+    color: "#0e638f"
     features:
       - id: feature1
         title: Feature
