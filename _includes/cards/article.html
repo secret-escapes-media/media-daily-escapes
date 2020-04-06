@@ -4,8 +4,14 @@
   <a href="{{article.link}}" class="article__link"></a>
   <div class="bg-img bg-img--16-9" style="background-image: url({{article.image}});"></div>
   <div class="boxpad--lg bg--white">
-    <h4 class="title title--xs text--bolder">{{article.title}}</h4>
+    <h4 class="title title--xs title--serif">{{article.title}}</h4>
     <p class="text--lg">{{article.summary}}</p>
-    <p class="text--bold">By: {{article.author}} <span class="article__meta-separator">|</span> Posted on: {{article.date}}</p>
+    <p class="text--bold">
+      {% if article.author %}
+        By: {{article.author}}
+        <span class="article__meta-separator">|</span>
+      {% endif %}
+      {% if article.date %}Posted on: {{article.date}}{% endif %}
+    </p>
   </div>
 </div>

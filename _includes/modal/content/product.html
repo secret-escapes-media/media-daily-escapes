@@ -34,10 +34,14 @@
   <div class="space--md"></div>
 
   <div class="boxpad--xxl bg--grey-darkest text--white text--center" style="background-color: {{item.product.color}};">
-    <h4 class="title title--serif title--md">Get rewarded</h4>
+    <h4 class="title title--serif title--md">Special offer</h4>
     <p class="text--xxxl text--bold">{{item.incentive}}</p>
     <div class="space--sm"></div>
-    <a href="{{item.product.link}}" class="btn btn--outline btn--outline-white">Download</a>
+    <a href="{{item.product.link}}" class="btn btn--outline btn--outline-white">{% if item.product.cta-text %}{{item.product.cta-text}}{% else %}Learn more{% endif %}</a>
+    <div class="space--xs"></div>
+    <div class="width width--xl">
+      <p class="text--xs">{{item.terms}}</p>
+    </div>
   </div>
 
 </div>

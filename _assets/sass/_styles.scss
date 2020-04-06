@@ -82,5 +82,21 @@
   justify-content: center;
   display: flex;
   flex-direction: column;
+  &__icon {
+    background-image: url('../img/icons/comment.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 40%;
+    max-width: 70px;
+    margin-left: auto; margin-right: auto;
+    margin-bottom: $s2;
+    &:before {
+      content: "";
+      display: block;
+      width: 100%;
+      padding-top: 100%;
+    }
+  }
 }
 

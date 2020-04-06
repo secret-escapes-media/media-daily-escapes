@@ -2,16 +2,69 @@
 
 
 ###################################################################################################
+# CREATIVITY
+###################################################################################################
+
+- id: photobox
+  category: creativity
+  incentive: "Get 50% off everything with our exclusive discount code: CANTWAITTOESCAPE"
+  terms: This offer entitles you to 50% off across the site with no minimum spend. Promotion does not apply to Delivery Charges, Gift Vouchers and Product Credits from Credit Sale. Cannot be used in conjunction with other discount codes and offers. Any monetary credits will be applied before any promotional discounts. All standard terms & conditions apply.
+  product:
+    name: Photobox
+    tagline: Bring your photos to life
+    color: "#007376"
+    link: https://www.photobox.co.uk/
+    cta-text: Create now
+    features:
+      - id: feature1
+        title: Feature
+        content: Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+      - id: feature2
+        title: Feature
+        content: Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+      - id: feature3
+        title: Feature
+        content: Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+
+
+
+###################################################################################################
+# GIFTING
+###################################################################################################
+
+- id: appleyard
+  category: gifting
+  incentive: Get 20% off flowers, the perfect gift for any occasion!
+  product:
+    name: Appleyard Flowers
+    tagline: Send the perfect gift
+    link: https://www.appleyardflowers.com/
+    color: "#C88FA2"
+    cta-text: Find out more
+    features:
+      - id: feature1
+        title: Luxury but affordable gifts
+        content: Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+      - id: feature2
+        title: Hampers
+        content: Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+      - id: feature3
+        title: Contactless delivery
+        content: Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+
+
+
+###################################################################################################
 # FITNESS
 ###################################################################################################
 
 - id: gymondo
   category: fitness
-  incentive: Do 5 days of yoga and we will reward you with £20 credit!
+  incentive: 30% discount for your first month of Gymondo
   product:
     name: Gymondo
-    tagline: Aenean eu leo quam
-    link:
+    tagline: Get Fit & Happy at Home
+    link: https://www.gymondo.com/en/
     color: "#FD7E65"
     features:
       - id: feature1
@@ -27,17 +80,17 @@
 
 
 ###################################################################################################
-# MINDFULNESS
+# ENTERTAINMENT
 ###################################################################################################
 
-- id: down-dog
-  category: mindfulness
-  incentive: Do 5 days of yoga and we will reward you with £20 credit!
+- id: audible
+  category: entertainment
+  incentive: Get 50% off membership for 3 months
   product:
-    name: Down Dog
-    tagline: Great yoga anywhere
-    link:
-    color: "#379EE5"
+    name: Audible
+    tagline: Stories that speak to you
+    link: https://www.audible.co.uk/ep/399_membership
+    color: "#f89a1d"
     features:
       - id: feature1
         title: Feature
@@ -50,123 +103,6 @@
         content: Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
 
 
-
-###################################################################################################
-# READING
-###################################################################################################
-
-- id: kindle
-  category: reading
-  incentive: Read 2 books this month and we will reward you with £20 credit!
-  product:
-    name: Kindle
-    tagline: Aenean eu leo quam
-    link:
-    color: "#67a5c7"
-    features:
-      - id: feature1
-        title: Feature
-        content: Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
-      - id: feature2
-        title: Feature
-        content: Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
-      - id: feature3
-        title: Feature
-        content: Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
-
-
-
-###################################################################################################
-# CREATIVITY
-###################################################################################################
-
-- id: photobox
-  category: creativity
-  incentive: 50% off all orders
-  product:
-    name: Photobox
-    tagline: Aenean eu leo quam
-    link:
-    color: "#007376"
-    features:
-      - id: feature1
-        title: Feature
-        content: Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
-      - id: feature2
-        title: Feature
-        content: Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
-      - id: feature3
-        title: Feature
-        content: Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
-
-- id: touchnote
-  category:
-  incentive: Do 5 days of yoga and we will reward you with £20 credit!
-  product:
-    name: TouchNote
-    tagline: Moments they can hold on to
-    link:
-    color: "#56b9ca"
-    features:
-      - id: feature1
-        title: Feature
-        content: Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
-      - id: feature2
-        title: Feature
-        content: Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
-      - id: feature3
-        title: Feature
-        content: Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
-
-
-
-###################################################################################################
-# LEARNING
-###################################################################################################
-
-- id: duolingo
-  category: learning
-  incentive: Complete a week of lessons and we will reward you with £20 credit!
-  product:
-    name: Duolingo
-    tagline: Aenean eu leo quam
-    link:
-    color: "#77c800"
-    features:
-      - id: feature1
-        title: Feature
-        content: Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
-      - id: feature2
-        title: Feature
-        content: Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
-      - id: feature3
-        title: Feature
-        content: Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
-
-
-
-###################################################################################################
-# SOCIALISING
-###################################################################################################
-
-- id: psych
-  category: socialising
-  incentive:
-  product:
-    name: Psych
-    tagline: Aenean eu leo quam
-    link:
-    color: "#0e638f"
-    features:
-      - id: feature1
-        title: Feature
-        content: Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
-      - id: feature2
-        title: Feature
-        content: Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
-      - id: feature3
-        title: Feature
-        content: Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
 
 
 
