@@ -1,5 +1,6 @@
 
 
+
 .card {
   border-radius: 5px;
   overflow: hidden;
@@ -21,6 +22,7 @@
 }
 
 
+
 .product {
   position: relative;
   &__link {
@@ -33,6 +35,10 @@
     &-content {
       z-index: 1;
       position: relative;
+      padding: $s2;
+      @include bp($lg){
+        padding: $s10 $s2;
+      }
     }
     &-icon {
       margin-right: $s-2;
@@ -40,27 +46,49 @@
     }
     &-bg {
       @include background-attributes;
-      position: absolute;
-      left: 33%; right: 0;
-      top: 0; bottom: 0;
-      z-index: 0;
-      background-color: $grey-light;
-      &:before {
+      position: relative;
+      width: 100%;
+      &:after {
         content: "";
+        width: 100%;
         display: block;
+        padding-top: 50%;
+      }
+
+      @include bp($lg){
+        width: auto;
         position: absolute;
-        z-index: 1;
-        left: 0; top: 0; bottom: 0;
-        width: 50%;
-        background: -moz-linear-gradient(left,  rgba($white,1) 0%, rgba($white,0) 100%);
-        background: -webkit-linear-gradient(left,  rgba($white,1) 0%,rgba($white,0) 100%);
-        background: linear-gradient(to right,  rgba($white,1) 0%,rgba($white,0) 100%);
-        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=1 );
+        left: 33%; right: 0;
+        top: 0; bottom: 0;
+        z-index: 0;
+        background-color: $white;
+        &:after { content: none; }
+        &:before {
+          content: "";
+          display: block;
+          position: absolute;
+          z-index: 1;
+          left: -1px; top: 0; bottom: 0;
+          width: 50%;
+          background: -moz-linear-gradient(left,  rgba($white,1) 0%, rgba($white,0) 100%);
+          background: -webkit-linear-gradient(left,  rgba($white,1) 0%,rgba($white,0) 100%);
+          background: linear-gradient(to right,  rgba($white,1) 0%,rgba($white,0) 100%);
+          filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=1 );
+        }
       }
     }
   }
-  &__incentive {}
+  &__incentive {
+    padding: $s2;
+    &-cta {
+      text-align: left;
+      @include bp($lg){
+        text-align: right;
+      }
+    }
+  }
 }
+
 
 
 .article {

@@ -4,7 +4,7 @@ id: overview
 title: Daily Escapes
 ---
 
-{% include page/site-banner.html %}
+{% include page/banner.html %}
 
 {% assign sections = site.data.categories %}
 {% assign products = site.data.products %}
@@ -23,7 +23,7 @@ title: Daily Escapes
     <div class="row row--match-height">
       {% assign product = products | where: 'category', section.id %}
       {% if product.size > 0 %}
-        {% for product in product %}
+        {% for item in product %}
           <div class="col col--12">
             {% include cards/product.html %}
           </div>

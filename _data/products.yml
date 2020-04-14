@@ -17,14 +17,35 @@
     cta-text: Create now
     features:
       - id: feature1
-        title: Feature
-        content: Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+        title: Reflect
+        content: While we hope and plan for future holidays, it’s also important to cherish the trips we’ve had with the ones we love. Why not take this time to reminisce about your previous travels and create a beautiful memory book to cherish. Surprise your friends by showing them when you next meet up.
       - id: feature2
-        title: Feature
-        content: Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+        title: Create
+        content: So why not snuggle up this week with a photo project? Create beautiful keepsakes of your favourite trips which can be delivered right to the letterbox of you or a loved one.
       - id: feature3
-        title: Feature
-        content: Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+        title: Showstoppers
+        content: Got a showstopping wildlife photograph or some sensational scenery that deserves to be shown off? Showcase your travels in art at home or send a gift to a loved one.
+
+- id: touchnote
+  category: creativity
+  incentive: "Enjoy four photocards for free when you use our special code: ESCAPE"
+  terms:
+  product:
+    name: TouchNote
+    tagline: Stay in touch with those you love
+    color: "#3CAEBB"
+    link: https://touchnote.onelink.me/3205415180?pid=Partnerships&c=TouchNote-Secret%20Escapes_ESCAPE&af_dp=tn%3A%2F%2Fpromocode%2FESCAPE&af_web_dp=https%3A%2F%2Fapp.touchnote.com%2Fa%2FPROMO%2FESCAPE
+    cta-text: Download now
+    features:
+      - id: feature1
+        title: Create
+        content: With free worldwide delivery, it doesn’t matter who you want to get in touch with. Connect with loved ones with personalised photo cards sent straight from your phone. All it takes is your favourite pics, a heartfelt message and in a few taps, it’ll be on its way. Easy.
+      - id: feature2
+        title: Connect
+        content: Feel good with TouchNote. Did you know that 3 in 4 TouchNote members believe it has strengthened their relationships? Spread some positive vibes and show someone you’re thinking of them with a unique, beautiful card.
+      - id: feature3
+        title: Cherish
+        content: Printed to the highest quality, TouchNote cards are made to last. With 95% of members feeling happier when surrounded by photos of their loved ones, it’s a good thing their cards stick around for so long.
 
 
 
@@ -34,7 +55,7 @@
 
 - id: appleyard
   category: gifting
-  incentive: Get 20% off flowers, the perfect gift for any occasion!
+  incentive: "Enjoy 20% off all bouquets with our special discount code: SECRET20"
   product:
     name: Appleyard Flowers
     tagline: Send the perfect gift
@@ -43,14 +64,33 @@
     cta-text: Find out more
     features:
       - id: feature1
-        title: Luxury but affordable gifts
-        content: Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+        title: Life’s little luxuries
+        content: In these uncertain times, we are all in need of a little pick-me-up. Flowers are the perfect way to put a smile on someone’s face. Appleyard deliver a range of luxury and affordable gifts, including hampers, to your homes. Ideal for a birthday, anniversary, or a special weekend treat.
       - id: feature2
-        title: Hampers
-        content: Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+        title: Delivering safely
+        content: Appleyard deliveries are now contact-free. Couriers will leave your delivery in a safe place, to keep within a safe distance. Our letterbox flowers will be delivered through the letterbox as usual. You’ll receive prompt delivery updates to let you know when your parcel has arrived.
       - id: feature3
-        title: Contactless delivery
-        content: Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+        title: Giving back
+        content: Appleyard are fundraising in aid of NHS charities which support NHS staff and volunteers in various ways. When you checkout, there will be an option to add a small donation to your purchase. Appleyard will then match all donations.
+
+- id: espa
+  category: gifting
+  incentive: Re-create the spa experience at home with ESPA
+  product:
+    name: ESPA
+    tagline: Escape at home
+    link:
+    color: "#625e5d"
+    features:
+      - id: feature1
+        title: Home Spa Experience
+        content: Donec ullamcorper nulla non metus auctor fringilla. Cras mattis consectetur purus sit amet fermentum.
+      - id: feature2
+        title: Handcare
+        content: Donec ullamcorper nulla non metus auctor fringilla. Cras mattis consectetur purus sit amet fermentum.
+      - id: feature3
+        title: Skincare
+        content: Donec ullamcorper nulla non metus auctor fringilla. Cras mattis consectetur purus sit amet fermentum.
 
 
 
@@ -63,7 +103,7 @@
   incentive: 30% discount for your first month of Gymondo
   product:
     name: Gymondo
-    tagline: Get Fit & Happy at Home
+    tagline: Get fit & happy at home
     link: https://www.gymondo.com/en/
     color: "#FD7E65"
     features:
@@ -80,27 +120,53 @@
 
 
 ###################################################################################################
+# READING
+###################################################################################################
+
+- id: ng-traveller
+  category: reading
+  incentive:
+  product:
+    name: Nat Geo Traveller
+    tagline: Perfect for travel enthusiasts the world over
+    link:
+    color: "#FCCC3E"
+    low-contrast: true
+    features:
+      - id: feature1
+        title: Inspiring
+        content: With compelling storytelling, wish-you-were-there photography and insightful, reader-friendly information - it's perfect for travel enthusiasts the world over. This magazine is not only full of passion for experiencing the world, but it also champions sustainable travel and celebrates journeys about place and culture.
+      - id: feature2
+        title: The perfect gift
+        content: National Geographic Traveller is a thoughtful gift idea for your friends and family who are keen explorers. Jam-packed with fascinating storytelling and wish-you-were-there photography, you'll definitely satisfy their itch to travel
+      - id: feature3
+        title: Award winner
+        content: Named 'Best Consumer Travel Magazine' at the British Travel Awards 2019, Nat Geo Traveller UK is ready to help prepare you for your next adventure.
+
+
+
+###################################################################################################
 # ENTERTAINMENT
 ###################################################################################################
 
-- id: audible
-  category: entertainment
-  incentive: Get 50% off membership for 3 months
-  product:
-    name: Audible
-    tagline: Stories that speak to you
-    link: https://www.audible.co.uk/ep/399_membership
-    color: "#f89a1d"
-    features:
-      - id: feature1
-        title: Feature
-        content: Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
-      - id: feature2
-        title: Feature
-        content: Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
-      - id: feature3
-        title: Feature
-        content: Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+# - id: audible
+#   category: entertainment
+#   incentive: Get 50% off membership for 3 months
+#   product:
+#     name: Audible
+#     tagline: Stories that speak to you
+#     link: https://www.audible.co.uk/ep/399_membership
+#     color: "#f89a1d"
+#     features:
+#       - id: feature1
+#         title: Feature
+#         content: Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+#       - id: feature2
+#         title: Feature
+#         content: Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+#       - id: feature3
+#         title: Feature
+#         content: Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
 
 
 

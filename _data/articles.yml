@@ -9,6 +9,14 @@
   image: https://www.secretescapes.com/magazine-uk/wp-content/uploads/2020/03/1-1.jpg
   link: https://www.secretescapes.com/magazine-uk/best-travel-books/
 
+- category: reading
+  title: "Literary London: the capital through books"
+  summary: "We all need an escape once in a while – to experience something new, and take a break from reality. When your next holiday seems worlds away, there’s another way to get your adventure-fix: by picking up a good book."
+  author: Peter Croucher
+  date: 6 April 2020
+  image: https://www.secretescapes.com/magazine-uk/wp-content/uploads/2020/04/Banner-image-Little-Venice-London-511858196-min.jpg
+  link: https://www.secretescapes.com/magazine-uk/literary-london-the-capital-through-books/
+
 - category: mindfulness
   title: "Yoga and travel: journeys that promote wellbeing and self-discovery"
   summary: The importance of taking time out to recharge and reconnect for both our physical and mental wellbeing is hugely important.
@@ -25,14 +33,20 @@
   image: https://www.secretescapes.com/magazine-uk/wp-content/uploads/2019/12/La-meditazione-in-un-monastero-giapponese.jpg
   link: https://www.secretescapes.com/magazine-uk/ancient-examples-of-wellness-rituals/
 
+- category: entertainment
+  title: The California filming locations you need to visit
+  summary: Golden State film spots are currently fast-tracking their way onto tourists’ must-see lists quicker than you can say ‘action’. Here’s a rundown of the California filming locations you can enjoy front-row access to, no backstage pass required.
+  author: Carlie Mesquitta
+  date: 20 February 2020
+  image: https://www.secretescapes.com/magazine-uk/wp-content/uploads/2020/01/rsz_istock-520006232_-_santa_cruz.jpg
+  link: https://www.secretescapes.com/magazine-uk/the-california-filming-locations-you-need-to-visit/
 
-
-# - category: entertainment
-#   title: The California filming locations you need to visit
-#   summary: Golden State film spots are currently fast-tracking their way onto tourists’ must-see lists quicker than you can say ‘action’. Here’s a rundown of the California filming locations you can enjoy front-row access to, no backstage pass required.
-#   author: Carlie Mesquitta
-#   date: 20 February 2020
-#   image: https://www.secretescapes.com/magazine-uk/wp-content/uploads/2020/01/rsz_istock-520006232_-_santa_cruz.jpg
-#   link: https://www.secretescapes.com/magazine-uk/the-california-filming-locations-you-need-to-visit/
+- category: entertainment
+  title: Six of the best virtual attractions you can enjoy from your sofa
+  summary: Forget the long lines, gift shop queues and crowds of snap-happy tourists, there’s now a way to see your favourite sights without having to set foot outside your door.
+  author: Carlie Mesquitta
+  date: 7 April 2020
+  image: https://www.secretescapes.com/magazine-uk/wp-content/uploads/2020/04/The-Louvre-Paris.-Image-istock-JLGutierrez.jpg
+  link: https://www.secretescapes.com/magazine-uk/six-of-the-best-virtual-attractions-you-can-enjoy-from-your-sofa/
 
 

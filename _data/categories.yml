@@ -2,34 +2,34 @@
 
 - id: creativity
   title: Creativity
-  description: Let your creativity flow! Get creative with these cool products, perfect for doing something productive with all that indoor time. Whether your thing is fine art or photography, try something new or fine-tune that artistic flair...
+  description: Let your creativity flow! Get creative with these cool products, perfect for doing something productive with all that time at home. Whether your thing is fine art or photography, try something new or work on finessing that artistic flair...
 
 - id: gifting
   title: Gifting
-  description: Cras mattis consectetur purus sit amet fermentum. Donec id elit non mi porta gravida at eget metus. Nullam quis risus eget urna mollis ornare vel eu leo.
+  description: Isolation birthdays or special celebrations might not be what you had on the cards, but there are so many wonderful ways to show them how much you care. How about sending flowers, or a perfectly baked cake? Here are some inspiring ideas for gifting during lockdown.
+
+- id: fitness
+  title: Fitness
+  description: Staying fit is a fantastic way to keep the stir-crazy at bay during self-isolation. With a choice of products, apps and online classes, you can stay on top of your fitness regime from the comfort of your home.
 
 - id: reading
   title: Reading
-  description: There’s no reason to put those holiday reads down. A good book is a frightfully good companion, so find your next read here and we’ll reward you with a Secret Escapes credit toward your future getaway!
+  description: There’s no reason to put those holiday reads down. A good book is a delightful companion, so get comfy and find your next entertaining read here.
 
-- id: entertainment
-  title: Entertainment
-  description: Cras mattis consectetur purus sit amet fermentum. Donec id elit non mi porta gravida at eget metus. Nullam quis risus eget urna mollis ornare vel eu leo.
+# - id: entertainment
+#   title: Entertainment
+#   description: No need to resort to playing chess solo. There are a myriad of magnificent games and things to do, both online and with anyone else stuck at home with you. Don’t lose your competitive edge, here are some top games and entertainment ideas to while away the hours.
 
 - id: mindfulness
   title: Mindfulness
   description: These are strange times and can be unsettling for some. A bit of mindfulness, a spot of yoga, a pinch of meditation - they can all help ease any anxieties and keep you healthy.
 
-- id: fitness
-  title: Fitness
-  description: Staying fit is the best way to keep the stir-crazy at bay from all that self-isolation. With a choice of products, you can stay on top of your fitness regime from the comfort of home. Plus, we’ll reward your progress with Secret Escapes credit!
-
 # - id: learning
 #   title: Learning
-#   description: It’s just one of those things that seemingly always gets put off. But think about how impressive you’ll be strutting through Paris with perfect French at the tip of your tongue. Master that language you’ve always wanted to learn and we’ll credit you toward that future break!
+#   description: It’s just one of those things that seemingly always gets put off. But think about how impressive you’ll be strutting through Paris with perfect French at the tip of your tongue. Master that language you’ve always wanted to learn.
 
 # - id: socialising
 #   title: Socialising
-#   description: Don’t miss out on the pub quiz, the board game marathon, the plans you had with friends. There’s ways that you can still connect during these strange times, and safely hang out with loved ones.
+#   description: Don’t miss out on the pub quiz, the board game marathon, the plans you had with friends. There are plenty of ways that you can still connect during these strange times, and safely hang out with your loved ones.
 
 
