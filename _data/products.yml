@@ -73,24 +73,24 @@
         title: Giving back
         content: Appleyard are fundraising in aid of NHS charities which support NHS staff and volunteers in various ways. When you checkout, there will be an option to add a small donation to your purchase. Appleyard will then match all donations.
 
-- id: espa
-  category: gifting
-  incentive: Re-create the spa experience at home with ESPA
-  product:
-    name: ESPA
-    tagline: Escape at home
-    link:
-    color: "#625e5d"
-    features:
-      - id: feature1
-        title: Home Spa Experience
-        content: Donec ullamcorper nulla non metus auctor fringilla. Cras mattis consectetur purus sit amet fermentum.
-      - id: feature2
-        title: Handcare
-        content: Donec ullamcorper nulla non metus auctor fringilla. Cras mattis consectetur purus sit amet fermentum.
-      - id: feature3
-        title: Skincare
-        content: Donec ullamcorper nulla non metus auctor fringilla. Cras mattis consectetur purus sit amet fermentum.
+# - id: espa
+#   category: gifting
+#   incentive: Re-create the spa experience at home with ESPA
+#   product:
+#     name: ESPA
+#     tagline: Escape at home
+#     link:
+#     color: "#625e5d"
+#     features:
+#       - id: feature1
+#         title: Home Spa Experience
+#         content: Donec ullamcorper nulla non metus auctor fringilla. Cras mattis consectetur purus sit amet fermentum.
+#       - id: feature2
+#         title: Handcare
+#         content: Donec ullamcorper nulla non metus auctor fringilla. Cras mattis consectetur purus sit amet fermentum.
+#       - id: feature3
+#         title: Skincare
+#         content: Donec ullamcorper nulla non metus auctor fringilla. Cras mattis consectetur purus sit amet fermentum.
 
 
 
@@ -98,24 +98,24 @@
 # FITNESS
 ###################################################################################################
 
-- id: gymondo
-  category: fitness
-  incentive: 30% discount for your first month of Gymondo
-  product:
-    name: Gymondo
-    tagline: Get fit & happy at home
-    link: https://www.gymondo.com/en/
-    color: "#FD7E65"
-    features:
-      - id: feature1
-        title: Feature
-        content: Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
-      - id: feature2
-        title: Feature
-        content: Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
-      - id: feature3
-        title: Feature
-        content: Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+# - id: gymondo
+#   category: fitness
+#   incentive: 30% discount for your first month of Gymondo
+#   product:
+#     name: Gymondo
+#     tagline: Get fit & happy at home
+#     link: https://www.gymondo.com/en/
+#     color: "#FD7E65"
+#     features:
+#       - id: feature1
+#         title: Feature
+#         content: Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+#       - id: feature2
+#         title: Feature
+#         content: Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+#       - id: feature3
+#         title: Feature
+#         content: Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
 
 
 
@@ -123,25 +123,25 @@
 # READING
 ###################################################################################################
 
-- id: ng-traveller
-  category: reading
-  incentive:
-  product:
-    name: Nat Geo Traveller
-    tagline: Perfect for travel enthusiasts the world over
-    link:
-    color: "#FCCC3E"
-    low-contrast: true
-    features:
-      - id: feature1
-        title: Inspiring
-        content: With compelling storytelling, wish-you-were-there photography and insightful, reader-friendly information - it's perfect for travel enthusiasts the world over. This magazine is not only full of passion for experiencing the world, but it also champions sustainable travel and celebrates journeys about place and culture.
-      - id: feature2
-        title: The perfect gift
-        content: National Geographic Traveller is a thoughtful gift idea for your friends and family who are keen explorers. Jam-packed with fascinating storytelling and wish-you-were-there photography, you'll definitely satisfy their itch to travel
-      - id: feature3
-        title: Award winner
-        content: Named 'Best Consumer Travel Magazine' at the British Travel Awards 2019, Nat Geo Traveller UK is ready to help prepare you for your next adventure.
+# - id: ng-traveller
+#   category: reading
+#   incentive:
+#   product:
+#     name: Nat Geo Traveller
+#     tagline: Perfect for travel enthusiasts the world over
+#     link:
+#     color: "#FCCC3E"
+#     low-contrast: true
+#     features:
+#       - id: feature1
+#         title: Inspiring
+#         content: With compelling storytelling, wish-you-were-there photography and insightful, reader-friendly information - it's perfect for travel enthusiasts the world over. This magazine is not only full of passion for experiencing the world, but it also champions sustainable travel and celebrates journeys about place and culture.
+#       - id: feature2
+#         title: The perfect gift
+#         content: National Geographic Traveller is a thoughtful gift idea for your friends and family who are keen explorers. Jam-packed with fascinating storytelling and wish-you-were-there photography, you'll definitely satisfy their itch to travel
+#       - id: feature3
+#         title: Award winner
+#         content: Named 'Best Consumer Travel Magazine' at the British Travel Awards 2019, Nat Geo Traveller UK is ready to help prepare you for your next adventure.
 
 
 

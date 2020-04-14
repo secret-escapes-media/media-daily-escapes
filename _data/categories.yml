@@ -8,17 +8,17 @@
   title: Gifting
   description: Isolation birthdays or special celebrations might not be what you had on the cards, but there are so many wonderful ways to show them how much you care. How about sending flowers, or a perfectly baked cake? Here are some inspiring ideas for gifting during lockdown.
 
-- id: fitness
-  title: Fitness
-  description: Staying fit is a fantastic way to keep the stir-crazy at bay during self-isolation. With a choice of products, apps and online classes, you can stay on top of your fitness regime from the comfort of your home.
+# - id: fitness
+#   title: Fitness
+#   description: Staying fit is a fantastic way to keep the stir-crazy at bay during self-isolation. With a choice of products, apps and online classes, you can stay on top of your fitness regime from the comfort of your home.
 
 - id: reading
   title: Reading
   description: There’s no reason to put those holiday reads down. A good book is a delightful companion, so get comfy and find your next entertaining read here.
 
-# - id: entertainment
-#   title: Entertainment
-#   description: No need to resort to playing chess solo. There are a myriad of magnificent games and things to do, both online and with anyone else stuck at home with you. Don’t lose your competitive edge, here are some top games and entertainment ideas to while away the hours.
+- id: entertainment
+  title: Entertainment
+  description: No need to resort to playing chess solo. There are a myriad of magnificent games and things to do, both online and with anyone else stuck at home with you. Don’t lose your competitive edge, here are some top games and entertainment ideas to while away the hours.
 
 - id: mindfulness
   title: Mindfulness
