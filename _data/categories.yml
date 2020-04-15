@@ -1,5 +1,10 @@
 
 
+
+- id: reading
+  title: Reading
+  description: There’s no reason to put those holiday reads down. A good book is a delightful companion, so get comfy and find your next entertaining read here.
+
 - id: creativity
   title: Creativity
   description: Let your creativity flow! Get creative with these cool products, perfect for doing something productive with all that time at home. Whether your thing is fine art or photography, try something new or work on finessing that artistic flair...
@@ -12,17 +17,13 @@
   title: Fitness
   description: Staying fit is a fantastic way to keep the stir-crazy at bay during self-isolation. With a choice of products, apps and online classes, you can stay on top of your fitness regime from the comfort of your home.
 
-- id: reading
-  title: Reading
-  description: There’s no reason to put those holiday reads down. A good book is a delightful companion, so get comfy and find your next entertaining read here.
+- id: mindfulness
+  title: Mindfulness
+  description: These are strange times and can be unsettling for some. A bit of mindfulness, a spot of yoga, a pinch of meditation - they can all help ease any anxieties and keep you healthy.
 
 # - id: entertainment
 #   title: Entertainment
 #   description: No need to resort to playing chess solo. There are a myriad of magnificent games and things to do, both online and with anyone else stuck at home with you. Don’t lose your competitive edge, here are some top games and entertainment ideas to while away the hours.
-
-- id: mindfulness
-  title: Mindfulness
-  description: These are strange times and can be unsettling for some. A bit of mindfulness, a spot of yoga, a pinch of meditation - they can all help ease any anxieties and keep you healthy.
 
 # - id: learning
 #   title: Learning

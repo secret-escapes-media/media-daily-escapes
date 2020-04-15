@@ -7,8 +7,8 @@
 
 - id: photobox
   category: creativity
-  incentive: "Get 50% plus an extra 10% off everything by using the code: CANTWAITTOESCAPE"
-  terms: This offer entitles you to 50% off across the site with no minimum spend. Promotion does not apply to Delivery Charges, Gift Vouchers and Product Credits from Credit Sale. Cannot be used in conjunction with other discount codes and offers. Any monetary credits will be applied before any promotional discounts. All standard terms & conditions apply.
+  incentive: "Claim an additional 10% off all promotional savings using the code: CANTWAITTOESCAPE"
+  terms: This offer entitles you to an additional 10% off across the site with no minimum spend. Promotion does not apply to Delivery Charges, Gift Vouchers and Product Credits from Credit Sale. May be used in conjunction with one other eligible discount offer. Expires 30 April 2020. All standard terms & conditions apply.
   product:
     name: Photobox
     tagline: Bring your photos to life
@@ -75,22 +75,23 @@
 
 - id: espa
   category: gifting
+  passive: true
   incentive: Re-create the spa experience at home with ESPA
   product:
     name: ESPA
     tagline: Escape at home
-    link:
+    link: https://www.espaskincare.com/
     color: "#625e5d"
     features:
       - id: feature1
-        title: Home Spa Experience
-        content: Donec ullamcorper nulla non metus auctor fringilla. Cras mattis consectetur purus sit amet fermentum.
+        title: Focus on wellbeing
+        content: At ESPA we are guided by a holistic philosophy, caring for your whole wellbeing, focusing on creating natural skincare products that could deliver both instant benefits and also work beneath the skins surface to protect the long term health and beauty of the skin.
       - id: feature2
-        title: Handcare
-        content: Donec ullamcorper nulla non metus auctor fringilla. Cras mattis consectetur purus sit amet fermentum.
+        title: Escape at home
+        content: Re-create the spa experience at home with ESPA’s selection of beautifully formulated, natural products designed to restore your skin, body and mind. Investing in our wellbeing, now more than ever, is vital, and what better way to start than with your skin and a good hand cream?
       - id: feature3
-        title: Skincare
-        content: Donec ullamcorper nulla non metus auctor fringilla. Cras mattis consectetur purus sit amet fermentum.
+        title: Radiant skin
+        content: Taking care of our skin makes us look and feel at our best. Using ESPA’s range of quality natural products as part of your daily skincare routine will soften, repair and revitalise your skin, giving you a healthy glow, and a boost when you need it most.
 
 
 
@@ -104,18 +105,18 @@
   product:
     name: Gymondo
     tagline: Get fit & happy at home
-    link: https://www.gymondo.com/en/
+    link: https://www.gymondo.com/en/checkout/?voucher=3speun6v&utm_source=partner&utm_medium=NL&utm_campaign=SecretEscapesUK
     color: "#FD7E65"
     features:
       - id: feature1
-        title: Feature
-        content: Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+        title: Get active
+        content: While we’re stuck at home it’s really important to move our bodies every day. With Gymondo, you can enjoy effective home workouts with motivational coaches to help make exercising become a fun and enjoyable habit - anywhere, anytime.
       - id: feature2
-        title: Feature
-        content: Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+        title: Fun and diverse workouts
+        content: Find the workout that’s best for you and your body, with Gymondo’s diverse range of fitness programs. From yoga to HIIT, there’s over 200 motivating workouts, and over 800 recipes offering full flexibility that fits you and your lifestyle.
       - id: feature3
-        title: Feature
-        content: Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+        title: Healthy & nutritious meals
+        content: Nutrition is just as important as an active lifestyle. Choose from select recipes based on your preference and dietary requirements. Gymondo supports you with their recipes and the Gymondo nutrition plan to eat healthy and reach your fitness goals faster.
 
 
 
@@ -125,23 +126,23 @@
 
 - id: ng-traveller
   category: reading
-  incentive:
+  incentive: Get your first three issues for just £1
   product:
     name: Nat Geo Traveller
     tagline: Perfect for travel enthusiasts the world over
-    link:
+    link: https://natgeotraveller.imbmsubscriptions.com/ngtescape/
     color: "#FCCC3E"
     low-contrast: true
     features:
       - id: feature1
         title: Inspiring
-        content: With compelling storytelling, wish-you-were-there photography and insightful, reader-friendly information - it's perfect for travel enthusiasts the world over. This magazine is not only full of passion for experiencing the world, but it also champions sustainable travel and celebrates journeys about place and culture.
+        content: With compelling storytelling, wish-you-were-there photography and insightful, reader-friendly information - National Geographic Traveller is perfect for travel enthusiasts the world over. This magazine is not only full of passion for experiencing the world, but it also champions sustainable travel and celebrates journeys about place and culture.
       - id: feature2
         title: The perfect gift
         content: National Geographic Traveller is a thoughtful gift idea for your friends and family who are keen explorers. Jam-packed with fascinating storytelling and wish-you-were-there photography, you'll definitely satisfy their itch to travel
       - id: feature3
         title: Award winner
-        content: Named 'Best Consumer Travel Magazine' at the British Travel Awards 2019, Nat Geo Traveller UK is ready to help prepare you for your next adventure.
+        content: Named 'Best Consumer Travel Magazine' at the British Travel Awards 2019, National Geographic Traveller UK is ready to help prepare you for your next adventure.
 
 
 
