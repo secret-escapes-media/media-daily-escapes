@@ -35,9 +35,15 @@
   <div class="space--md"></div>
 
   <div class="boxpad--xxl text--center bg--grey-darkest{% if item.product.low-contrast %} text--black{% else %} text--white{% endif %}" style="background-color: {{item.product.color}};">
-    <h4 class="title title--serif title--md">Special offer</h4>
-    <p class="text--xxxl text--bold">{{item.incentive}}</p>
-    <div class="space--sm"></div>
+    {% if item.passive %}
+      <h4 class="title title--serif title--xs">{{item.incentive}}</h4>
+      <div class="space--md"></div>
+    {% else %}
+      <h4 class="title title--serif title--md">Special offer</h4>
+      <p class="text--xxxl text--bold">{{item.incentive}}</p>
+      <div class="space--sm"></div>
+    {% endif %}
+
     <a href="{{item.product.link}}" id="tracking-{{item.id}}-btn" class="btn btn--outline {% if item.product.low-contrast %} btn--outline-black{% else %} btn--outline-white{% endif %} tracking-product-btn tracking-{{item.id}}-btn">{% if item.product.cta-text %}{{item.product.cta-text}}{% else %}Learn more{% endif %}</a>
     <div class="space--xs"></div>
     <div class="width width--xl">
