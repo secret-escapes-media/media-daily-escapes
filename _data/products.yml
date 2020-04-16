@@ -7,7 +7,7 @@
 
 - id: photobox
   category: creativity
-  incentive: "Claim an additional 10% off all promotional savings using the code: CANTWAITTOESCAPE"
+  incentive: "Save up to 50% in the spring sale event as well as an extra 10% with our code: CANTWAITTOESCAPE"
   terms: This offer entitles you to an additional 10% off across the site with no minimum spend. Promotion does not apply to Delivery Charges, Gift Vouchers and Product Credits from Credit Sale. May be used in conjunction with one other eligible discount offer. Expires 30 April 2020. All standard terms & conditions apply.
   product:
     name: Photobox
@@ -80,12 +80,12 @@
   product:
     name: ESPA
     tagline: Escape at home
-    link: https://www.espaskincare.com/
+    link: https://www.awin1.com/cread.php?awinmid=11310&awinaffid=698587&ued=https%3A%2F%2Fwww.espaskincare.com%2F
     color: "#625e5d"
     features:
       - id: feature1
         title: Focus on wellbeing
-        content: At ESPA we are guided by a holistic philosophy, caring for your whole wellbeing, focusing on creating natural skincare products that could deliver both instant benefits and also work beneath the skins surface to protect the long term health and beauty of the skin.
+        content: ESPA are guided by a holistic philosophy, caring for your whole wellbeing, focusing on creating natural skincare products that could deliver both instant benefits and also work beneath the skins surface to protect the long term health and beauty of the skin.
       - id: feature2
         title: Escape at home
         content: Re-create the spa experience at home with ESPA’s selection of beautifully formulated, natural products designed to restore your skin, body and mind. Investing in our wellbeing, now more than ever, is vital, and what better way to start than with your skin and a good hand cream?
@@ -101,7 +101,7 @@
 
 - id: gymondo
   category: fitness
-  incentive: 30% discount for your first month of Gymondo
+  incentive: 25% discount on your first Gymondo membership package
   product:
     name: Gymondo
     tagline: Get fit & happy at home
