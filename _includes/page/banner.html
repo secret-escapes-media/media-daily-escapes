@@ -17,7 +17,7 @@
   <!-- site nav -->
   <div class="hero__nav container">
   {% for section in site.data.categories %}
-    <div class="hero__nav-item" style="background-image: url({{site.img}}/category/{{section.id}}/nav.jpg);">
+    <div class="hero__nav-item hero__nav-{{section.id}}" style="background-image: url({{site.img}}/category/{{section.id}}/nav.jpg);">
       <a href="#{{section.id}}" class="hero__nav-link">
         {{section.title}}
       </a>
