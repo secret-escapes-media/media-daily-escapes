@@ -147,29 +147,27 @@
 
 
 ###################################################################################################
-# ENTERTAINMENT
+# MINDFULNESS
 ###################################################################################################
 
-# - id: audible
-#   category: entertainment
-#   incentive: Get 50% off membership for 3 months
-#   product:
-#     name: Audible
-#     tagline: Stories that speak to you
-#     link: https://www.audible.co.uk/ep/399_membership
-#     color: "#f89a1d"
-#     features:
-#       - id: feature1
-#         title: Feature
-#         content: Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
-#       - id: feature2
-#         title: Feature
-#         content: Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
-#       - id: feature3
-#         title: Feature
-#         content: Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
-
-
+- id: lsw-mind-cards
+  category: mindfulness
+  incentive: "Free guided meditation recording with every purchase using code: SECRETESCAPES"
+  product:
+    name: LSW Mind Cards
+    tagline: Boost your wellbeing and your mood with LSW Mind Cards
+    link: https://lswmindcards.com/
+    color: "#96acc9"
+    features:
+      - id: feature1
+        title: Title
+        content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id dolor id nibh ultricies vehicula ut id elit.
+      - id: feature2
+        title: Title
+        content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id dolor id nibh ultricies vehicula ut id elit.
+      - id: feature3
+        title: Title
+        content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id dolor id nibh ultricies vehicula ut id elit.
 
 
 
