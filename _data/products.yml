@@ -126,11 +126,12 @@
 
 - id: ng-traveller
   category: reading
-  incentive: Get your first three issues for just £1
+  incentive: Enjoy three issues of Nat Geo Traveller for only £1
   product:
     name: Nat Geo Traveller
     tagline: Perfect for travel enthusiasts the world over
     link: https://natgeotraveller.imbmsubscriptions.com/ngtescape/
+    cta-text: Order now
     color: "#FCCC3E"
     low-contrast: true
     features:
@@ -147,29 +148,27 @@
 
 
 ###################################################################################################
-# ENTERTAINMENT
+# MINDFULNESS
 ###################################################################################################
 
-# - id: audible
-#   category: entertainment
-#   incentive: Get 50% off membership for 3 months
-#   product:
-#     name: Audible
-#     tagline: Stories that speak to you
-#     link: https://www.audible.co.uk/ep/399_membership
-#     color: "#f89a1d"
-#     features:
-#       - id: feature1
-#         title: Feature
-#         content: Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
-#       - id: feature2
-#         title: Feature
-#         content: Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
-#       - id: feature3
-#         title: Feature
-#         content: Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
-
-
+- id: lsw-mind-cards
+  category: mindfulness
+  incentive: "Free guided meditation recording with every purchase using code: SECRETESCAPES"
+  product:
+    name: LSW Mind Cards
+    tagline: Boost your wellbeing and your mood with LSW Mind Cards
+    link: https://lswmindcards.com/
+    color: "#96acc9"
+    features:
+      - id: feature1
+        title: Cards with a purpose
+        content: LSW Mind Cards are a pack of 45 individually designed cards each with a tool or task to help you increase your wellbeing, boost your mood and help you move towards a more fulfilled life.
+      - id: feature2
+        title: Creating positive habits
+        content: By introducing positive habits into your everyday, Mind Cards will give you the power to create the healthiest and happiest life for you.
+      - id: feature3
+        title: Take action
+        content: Each day select a card at random and take the action stated on the card. Building the habit of making at least one positive choice each day will help you lead a more fulfilling and happier life.
 
 
 
