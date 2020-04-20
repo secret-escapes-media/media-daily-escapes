@@ -126,11 +126,12 @@
 
 - id: ng-traveller
   category: reading
-  incentive: Get your first three issues for just £1
+  incentive: Enjoy three issues of Nat Geo Traveller for only £1
   product:
     name: Nat Geo Traveller
     tagline: Perfect for travel enthusiasts the world over
     link: https://natgeotraveller.imbmsubscriptions.com/ngtescape/
+    cta-text: Order now
     color: "#FCCC3E"
     low-contrast: true
     features:
@@ -160,14 +161,14 @@
     color: "#96acc9"
     features:
       - id: feature1
-        title: Title
-        content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id dolor id nibh ultricies vehicula ut id elit.
+        title: Cards with a purpose
+        content: LSW Mind Cards are a pack of 45 individually designed cards each with a tool or task to help you increase your wellbeing, boost your mood and help you move towards a more fulfilled life.
       - id: feature2
-        title: Title
-        content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id dolor id nibh ultricies vehicula ut id elit.
+        title: Creating positive habits
+        content: By introducing positive habits into your everyday, Mind Cards will give you the power to create the healthiest and happiest life for you.
       - id: feature3
-        title: Title
-        content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id dolor id nibh ultricies vehicula ut id elit.
+        title: Take action
+        content: Each day select a card at random and take the action stated on the card. Building the habit of making at least one positive choice each day will help you lead a more fulfilling and happier life.
 
 
 
