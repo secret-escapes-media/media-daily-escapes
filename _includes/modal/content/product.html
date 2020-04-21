@@ -36,11 +36,11 @@
 
   <div class="boxpad--xxl text--center bg--grey-darkest{% if item.product.low-contrast %} text--black{% else %} text--white{% endif %}" style="background-color: {{item.product.color}};">
     {% if item.passive %}
-      <h4 class="title title--serif title--xs">{{item.incentive}}</h4>
+      <h4 class="title title--serif title--xs">{{item.product.incentive}}</h4>
       <div class="space--md"></div>
     {% else %}
       <h4 class="title title--serif title--md">Special offer</h4>
-      <p class="text--xxxl text--bold">{{item.incentive}}</p>
+      <p class="text--xxxl text--bold">{{item.product.incentive}}</p>
       <div class="space--sm"></div>
     {% endif %}
 

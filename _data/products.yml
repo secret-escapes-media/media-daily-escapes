@@ -7,11 +7,11 @@
 
 - id: photobox
   category: creativity
-  incentive: "Save up to 50% in the spring sale event as well as an extra 10% with our code: CANTWAITTOESCAPE"
   terms: This offer entitles you to an additional 10% off across the site with no minimum spend. Promotion does not apply to Delivery Charges, Gift Vouchers and Product Credits from Credit Sale. May be used in conjunction with one other eligible discount offer. Expires 30 April 2020. All standard terms & conditions apply.
   product:
     name: Photobox
     tagline: Bring your photos to life
+    incentive: "Save up to 50% in the spring sale event as well as an extra 10% with our code: CANTWAITTOESCAPE"
     color: "#007376"
     link: http://www.jdoqocy.com/click-7823436-13267978
     cta-text: Create now
@@ -28,10 +28,9 @@
 
 - id: touchnote
   category: creativity
-  incentive: "Enjoy four photocards for free when you use our special code: ESCAPE"
-  terms:
   product:
     name: TouchNote
+    incentive: "Enjoy four photocards for free when you use our special code: ESCAPE"
     tagline: Stay in touch with those you love
     color: "#3CAEBB"
     link: https://touchnote.onelink.me/3205415180?pid=Partnerships&c=TouchNote-Secret%20Escapes_ESCAPE&af_dp=tn%3A%2F%2Fpromocode%2FESCAPE&af_web_dp=https%3A%2F%2Fapp.touchnote.com%2Fa%2FPROMO%2FESCAPE
@@ -55,10 +54,10 @@
 
 - id: appleyard
   category: gifting
-  incentive: "Enjoy 20% off all bouquets with our special discount code: SECRET20"
   product:
     name: Appleyard Flowers
     tagline: Send the perfect gift
+    incentive: "Enjoy 20% off all bouquets with our special discount code: SECRET20"
     link: https://www.appleyardflowers.com/
     color: "#C88FA2"
     cta-text: Find out more
@@ -76,10 +75,10 @@
 - id: espa
   category: gifting
   passive: true
-  incentive: Re-create the spa experience at home with ESPA
   product:
     name: ESPA
     tagline: Escape at home
+    incentive: Re-create the spa experience at home with ESPA
     link: https://www.awin1.com/cread.php?awinmid=11310&awinaffid=698587&ued=https%3A%2F%2Fwww.espaskincare.com%2F
     color: "#625e5d"
     features:
@@ -101,10 +100,10 @@
 
 - id: gymondo
   category: fitness
-  incentive: 25% discount on your first Gymondo membership package
   product:
     name: Gymondo
     tagline: Get fit & happy at home
+    incentive: 25% discount on your first Gymondo membership package
     link: https://www.gymondo.com/en/checkout/?voucher=3speun6v&utm_source=partner&utm_medium=NL&utm_campaign=SecretEscapesUK
     color: "#FD7E65"
     features:
@@ -126,10 +125,31 @@
 
 - id: ng-traveller
   category: reading
-  incentive: Enjoy three issues of Nat Geo Traveller for only £1
   product:
     name: Nat Geo Traveller
     tagline: Perfect for travel enthusiasts the world over
+    incentive: Enjoy three issues of Nat Geo Traveller for only £1
+    link: https://natgeotraveller.imbmsubscriptions.com/ngtescape/
+    cta-text: Order now
+    color: "#FCCC3E"
+    low-contrast: true
+    features:
+      - id: feature1
+        title: Inspiring
+        content: With compelling storytelling, wish-you-were-there photography and insightful, reader-friendly information - National Geographic Traveller is perfect for travel enthusiasts the world over. This magazine is not only full of passion for experiencing the world, but it also champions sustainable travel and celebrates journeys about place and culture.
+      - id: feature2
+        title: The perfect gift
+        content: National Geographic Traveller is a thoughtful gift idea for your friends and family who are keen explorers. Jam-packed with fascinating storytelling and wish-you-were-there photography, you'll definitely satisfy their itch to travel
+      - id: feature3
+        title: Award winner
+        content: Named 'Best Consumer Travel Magazine' at the British Travel Awards 2019, National Geographic Traveller UK is ready to help prepare you for your next adventure.
+
+- id: conde-nast
+  category: reading
+  product:
+    name: Condé Nast
+    tagline: Perfect for travel enthusiasts the world over
+    incentive: Any Condé Nast magazine subscription for £1 per month
     link: https://natgeotraveller.imbmsubscriptions.com/ngtescape/
     cta-text: Order now
     color: "#FCCC3E"
@@ -146,17 +166,16 @@
         content: Named 'Best Consumer Travel Magazine' at the British Travel Awards 2019, National Geographic Traveller UK is ready to help prepare you for your next adventure.
 
 
-
 ###################################################################################################
 # MINDFULNESS
 ###################################################################################################
 
 - id: lsw-mind-cards
   category: mindfulness
-  incentive: "Free guided meditation recording with every purchase using code: SECRETESCAPES"
   product:
     name: LSW Mind Cards
     tagline: Boost your wellbeing and your mood with LSW Mind Cards
+    incentive: "Free guided meditation recording with every purchase using code: SECRETESCAPES"
     link: https://lswmindcards.com/
     color: "#96acc9"
     features:
