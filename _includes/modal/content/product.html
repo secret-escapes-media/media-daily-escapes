@@ -45,10 +45,13 @@
     {% endif %}
 
     <a href="{{item.product.link}}" id="tracking-{{item.id}}-btn" class="btn btn--outline {% if item.product.low-contrast %} btn--outline-black{% else %} btn--outline-white{% endif %} tracking-product-btn tracking-{{item.id}}-btn">{% if item.product.cta-text %}{{item.product.cta-text}}{% else %}Learn more{% endif %}</a>
+
+    {% if item.product.terms %}
     <div class="space--xs"></div>
     <div class="width width--xl">
-      <p class="text--xs">{{item.terms}}</p>
+      <p class="text--xs">{{item.product.terms}}</p>
     </div>
+    {% endif %}
   </div>
 
 </div>

@@ -7,11 +7,11 @@
 
 - id: photobox
   category: creativity
-  terms: This offer entitles you to an additional 10% off across the site with no minimum spend. Promotion does not apply to Delivery Charges, Gift Vouchers and Product Credits from Credit Sale. May be used in conjunction with one other eligible discount offer. Expires 30 April 2020. All standard terms & conditions apply.
   product:
     name: Photobox
     tagline: Bring your photos to life
     incentive: "Save up to 50% in the spring sale event as well as an extra 10% with our code: CANTWAITTOESCAPE"
+    terms: This offer entitles you to an additional 10% off across the site with no minimum spend. Promotion does not apply to Delivery Charges, Gift Vouchers and Product Credits from Credit Sale. May be used in conjunction with one other eligible discount offer. Expires 30 April 2020. All standard terms & conditions apply.
     color: "#007376"
     link: http://www.jdoqocy.com/click-7823436-13267978
     cta-text: Create now
@@ -148,22 +148,20 @@
   category: reading
   product:
     name: Condé Nast
-    tagline: Perfect for travel enthusiasts the world over
+    tagline: Award-winning inspiration
     incentive: Any Condé Nast magazine subscription for £1 per month
-    link: https://natgeotraveller.imbmsubscriptions.com/ngtescape/
-    cta-text: Order now
-    color: "#FCCC3E"
-    low-contrast: true
+    link: https://www.magazineboutique.co.uk/RQT22/
+    color: "#000000"
     features:
       - id: feature1
-        title: Inspiring
-        content: With compelling storytelling, wish-you-were-there photography and insightful, reader-friendly information - National Geographic Traveller is perfect for travel enthusiasts the world over. This magazine is not only full of passion for experiencing the world, but it also champions sustainable travel and celebrates journeys about place and culture.
+        title: Design a curated home
+        content: Now is the perfect time to invest in your home, transforming it into the haven you deserve. For inspiring interior looks and stunning landscaping projects, look no further than House & Garden magazine.
       - id: feature2
-        title: The perfect gift
-        content: National Geographic Traveller is a thoughtful gift idea for your friends and family who are keen explorers. Jam-packed with fascinating storytelling and wish-you-were-there photography, you'll definitely satisfy their itch to travel
+        title: Condé Nast Traveller
+        content: While we’re unable to travel the world, this is a prime opportunity to discover more about the places you want to visit in the future. Discover global destinations, style and culture from the pages of this polished magazine.
       - id: feature3
-        title: Award winner
-        content: Named 'Best Consumer Travel Magazine' at the British Travel Awards 2019, National Geographic Traveller UK is ready to help prepare you for your next adventure.
+        title: Award-winning titles
+        content: This offer extends to Conde Nast’s full range of magazine subscriptions, so whether you’re interested in gardening, fashion, interiors, travel, or arts & culture, get inspired with any of these popular  titles. 
 
 
 ###################################################################################################
