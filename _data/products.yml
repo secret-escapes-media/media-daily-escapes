@@ -147,21 +147,45 @@
 - id: conde-nast
   category: reading
   product:
-    name: Condé Nast
+    hide-logo: true
+    name: Condé Nast Britain
     tagline: Award-winning inspiration
-    incentive: Any Condé Nast magazine subscription for £1 per month
+    incentive: Choose any Condé Nast Britain magazine for £1 per month
     link: https://www.magazineboutique.co.uk/RQT22/
     color: "#000000"
     features:
       - id: feature1
         title: Design a curated home
-        content: Now is the perfect time to invest in your home, transforming it into the haven you deserve. For inspiring interior looks and stunning landscaping projects, look no further than House & Garden magazine.
+        content: Now is the perfect time to invest in your home, transforming it into the haven you deserve. For inspiring interior looks and stunning landscaping projects, look no further than House & Garden or The World of Interiors magazines.
       - id: feature2
         title: Condé Nast Traveller
-        content: While we’re unable to travel the world, this is a prime opportunity to discover more about the places you want to visit in the future. Discover global destinations, style and culture from the pages of this polished magazine.
+        content: While we’re unable to travel the world, this is a prime opportunity to discover more about the places you want to visit in the future. Discover global destinations, style and culture from the pages of the world's leading luxury travel magazine.
       - id: feature3
         title: Award-winning titles
-        content: This offer extends to Conde Nast’s full range of magazine subscriptions, so whether you’re interested in gardening, fashion, interiors, travel, or arts & culture, get inspired with any of these popular  titles. 
+        content: This offer extends to all Condé Nast Britain magazine subscriptions, so whether you’re interested in gardening, fashion, interiors, travel, or arts & culture, get inspired with any of these leading and inspirational titles.
+
+- id: telegraph
+  category: reading
+  product:
+    name: The Telegraph
+    tagline: Unlimited access to unrivalled journalism
+    incentive: Enjoy a one month free trial and get your second month half price
+    cta-text: Start your subscription now
+    link: "https://secure.telegraph.co.uk/secure/payment/?productId=nbrdk4rzgjwte4dmnnzhgobuobvwgytm&offerId=free1half1-tablet-monthly-KO118&campaignId=174P&WT.mc_id=tmgoff_partnership_subsoffers_allaccess-SecretEscapes&utm_source=tmgoff&utm_medium=tmgoff_partnership&utm_content=subsoffers_allaccess&utm_campaign=tmgoff_partnership_subsoffers_allaccess-SecretEscapes"
+    terms: "Telegraph Media Group Limited’s Introductory Trial Offer gives you access to the Telegraph’s Premium All Digital Access Subscription for a trial period of one month free of charge and one month half price thereafter at a cost of £13 a month. You can cancel at any time. Your trial subscription will be activated as soon as you have completed your registration and submit your payment details. We shall not take payment for the first one month of the introductory trial period, after which you will automatically be charged the half price subscription fee of £13. On completion of the trial period you will automatically be charged the full Telegraph Premium subscription fee of £26 a month, unless you cancel beforehand.  "
+    color: "#04777b"
+    features:
+      - id: feature1
+        image: feature1.gif
+        title: Unrivalled journalism
+        content: "Enjoy unlimited access to The Telegraph with a free 30 day trial subscription. Catch up on expert coverage of health, politics, travel and beyond"
+      - id: feature2
+        image: feature2.gif
+        title: Digital access
+        content: Download and read the Daily and Sunday Telegraph newspapers from home, including supplements, magazines and puzzles
+      - id: feature3
+        title: Subscriber rewards
+        content: Subscribers get exclusive rewards to help you make the most of life at home, with on-demand entertainment, competitions, hotel and restaurant offers and much more
 
 
 ###################################################################################################

@@ -12,8 +12,12 @@
   </div>
 
   <div class="modal-product__title text--center">
-    <div class="icon modal-product__icon" style="background-image: url({{site.img}}/product/{{item.id}}/icon.jpg);"></div>
-    <div class="space--sm"></div>
+    {% if item.product.hide-logo %}
+      <div class="space--xl"></div>
+    {% else %}
+      <div class="icon modal-product__icon" style="background-image: url({{site.img}}/product/{{item.id}}/icon.jpg);"></div>
+      <div class="space--sm"></div>
+    {% endif %}
     <h3 class="title title--xl title--serif text--bolder">{{item.product.name}}</h3>
     <p class="text--xxl text--bold">{{item.product.tagline}}</p>
   </div>
@@ -22,7 +26,11 @@
     {% for feature in item.product.features %}
       <div class="bob{% cycle '', ' bob--swap' %}">
         <div class="bob__img">
-          <div class="bg-img bg-img--16-9" style="background-image: url({{site.img}}/product/{{item.id}}/{{feature.id}}.jpg);"></div>
+          {% if feature.image %}
+            <div class="bg-img bg-img--16-9" style="background-image: url({{site.img}}/product/{{item.id}}/{{feature.image}});"></div>
+          {% else %}
+            <div class="bg-img bg-img--16-9" style="background-image: url({{site.img}}/product/{{item.id}}/{{feature.id}}.jpg);"></div>
+          {% endif %}
         </div>
         <div class="bob__text">
           <h4 class="title title--sm text--bold">{{feature.title}}</h4>
