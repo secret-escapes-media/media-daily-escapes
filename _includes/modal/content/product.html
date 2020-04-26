@@ -12,8 +12,12 @@
   </div>
 
   <div class="modal-product__title text--center">
-    <div class="icon modal-product__icon" style="background-image: url({{site.img}}/product/{{item.id}}/icon.jpg);"></div>
-    <div class="space--sm"></div>
+    {% if item.product.hide-logo %}
+      <div class="space--xl"></div>
+    {% else %}
+      <div class="icon modal-product__icon" style="background-image: url({{site.img}}/product/{{item.id}}/icon.jpg);"></div>
+      <div class="space--sm"></div>
+    {% endif %}
     <h3 class="title title--xl title--serif text--bolder">{{item.product.name}}</h3>
     <p class="text--xxl text--bold">{{item.product.tagline}}</p>
   </div>
@@ -22,7 +26,11 @@
     {% for feature in item.product.features %}
       <div class="bob{% cycle '', ' bob--swap' %}">
         <div class="bob__img">
-          <div class="bg-img bg-img--16-9" style="background-image: url({{site.img}}/product/{{item.id}}/{{feature.id}}.jpg);"></div>
+          {% if feature.image %}
+            <div class="bg-img bg-img--16-10" style="background-image: url({{site.img}}/product/{{item.id}}/{{feature.image}});"></div>
+          {% else %}
+            <div class="bg-img bg-img--16-10" style="background-image: url({{site.img}}/product/{{item.id}}/{{feature.id}}.jpg);"></div>
+          {% endif %}
         </div>
         <div class="bob__text">
           <h4 class="title title--sm text--bold">{{feature.title}}</h4>
@@ -36,19 +44,22 @@
 
   <div class="boxpad--xxl text--center bg--grey-darkest{% if item.product.low-contrast %} text--black{% else %} text--white{% endif %}" style="background-color: {{item.product.color}};">
     {% if item.passive %}
-      <h4 class="title title--serif title--xs">{{item.incentive}}</h4>
+      <h4 class="title title--serif title--xs">{{item.product.incentive}}</h4>
       <div class="space--md"></div>
     {% else %}
       <h4 class="title title--serif title--md">Special offer</h4>
-      <p class="text--xxxl text--bold">{{item.incentive}}</p>
+      <p class="text--xxxl text--bold">{{item.product.incentive}}</p>
       <div class="space--sm"></div>
     {% endif %}
 
     <a href="{{item.product.link}}" id="tracking-{{item.id}}-btn" class="btn btn--outline {% if item.product.low-contrast %} btn--outline-black{% else %} btn--outline-white{% endif %} tracking-product-btn tracking-{{item.id}}-btn">{% if item.product.cta-text %}{{item.product.cta-text}}{% else %}Learn more{% endif %}</a>
+
+    {% if item.product.terms %}
     <div class="space--xs"></div>
     <div class="width width--xl">
-      <p class="text--xs">{{item.terms}}</p>
+      <p class="text--xs">{{item.product.terms}}</p>
     </div>
+    {% endif %}
   </div>
 
 </div>

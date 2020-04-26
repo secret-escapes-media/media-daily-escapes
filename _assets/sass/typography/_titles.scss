@@ -4,6 +4,8 @@
   // custom content headline
   font-family: $sans;
   line-height: 1.1;
+  color: $grey-darkest;
+  &.text--white, .text--white & { color: $white; }
   &--xxxl   { font-size: $s6; }
   &--xxl    { font-size: $s5; }
   &--xl     { font-size: $s5; }
